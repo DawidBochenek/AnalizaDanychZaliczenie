@@ -1,14 +1,14 @@
 ﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
   <Target>
     <Database>Modele Analizy Danych_Prokekt_Zal</Database>
-    <Server>DESKTOP-Q9K591A</Server>
-    <ConnectionString>Data Source=DESKTOP-Q9K591A;Timeout=0</ConnectionString>
+    <Server>DESKTOP-NBQ2S6L</Server>
+    <ConnectionString>Data Source=DESKTOP-NBQ2S6L;Timeout=0</ConnectionString>
   </Target>
   <Options>
     <TransactionalDeployment>false</TransactionalDeployment>
     <PartitionDeployment>DeployPartitions</PartitionDeployment>
     <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
-    <ProcessingOption>Default</ProcessingOption>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
     <OutputScript></OutputScript>
     <ImpactAnalysisFile></ImpactAnalysisFile>
     <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
@@ -19,70 +19,70 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>JF3LFh620FCZJQc/GwW9X5YMphc=19.01.2020 20:03:0419.01.2020 20:03:04</TimeStamp>
+        <TimeStamp>t2+xoMIp2czvKaC4L6LjcMo8Tvc=02.02.2020 18:25:2502.02.2020 18:21:39</TimeStamp>
         <ID>
           <String>Wide World Importers DW</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>nRgpqt1D4MTSTHwTQ3TEuJHsbTU=19.01.2020 20:07:2119.01.2020 20:07:21</TimeStamp>
+        <TimeStamp>nRgpqt1D4MTSTHwTQ3TEuJHsbTU=02.02.2020 18:21:3902.02.2020 18:21:39</TimeStamp>
         <ID>
           <String>Wide World Importers DW</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>nAIKg7I7shDmhgk3JpEWS5ZZU3M=19.01.2020 20:26:1719.01.2020 20:26:17</TimeStamp>
+        <TimeStamp>nAIKg7I7shDmhgk3JpEWS5ZZU3M=02.02.2020 18:21:3902.02.2020 18:21:39</TimeStamp>
         <ID>
           <String>Supplier</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>zwkcX3Zs2rlK3xK7jr9Lefnwyro=19.01.2020 20:26:1719.01.2020 20:26:17</TimeStamp>
+        <TimeStamp>zwkcX3Zs2rlK3xK7jr9Lefnwyro=02.02.2020 18:21:3902.02.2020 18:21:39</TimeStamp>
         <ID>
           <String>Stock Item</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>j86kCjo6+3tntboY19W4z+L9b+Q=19.01.2020 20:26:1719.01.2020 20:26:17</TimeStamp>
+        <TimeStamp>j86kCjo6+3tntboY19W4z+L9b+Q=02.02.2020 18:21:3902.02.2020 18:21:39</TimeStamp>
         <ID>
           <String>Date</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>sEm5e5dM7mqW4fbkDWLApu8NYUQ=19.01.2020 20:26:1719.01.2020 20:26:17</TimeStamp>
+        <TimeStamp>sEm5e5dM7mqW4fbkDWLApu8NYUQ=02.02.2020 18:21:3902.02.2020 18:21:39</TimeStamp>
         <ID>
           <String>Purchase</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>nuw6RlqNlMJf2YSM1XdrFEIRmCM=19.01.2020 20:26:1719.01.2020 20:26:17</TimeStamp>
+        <TimeStamp>nuw6RlqNlMJf2YSM1XdrFEIRmCM=02.02.2020 18:21:3902.02.2020 18:21:39</TimeStamp>
         <ID>
           <String>Transaction Type</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>2AmPQv58DHyy/ogjjpS41EXhs9A=19.01.2020 20:26:1719.01.2020 20:26:17</TimeStamp>
+        <TimeStamp>2AmPQv58DHyy/ogjjpS41EXhs9A=02.02.2020 18:21:3902.02.2020 18:21:39</TimeStamp>
         <ID>
           <String>Payment Method</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>ZOyZKmgdhI7vvnTqEu31ljTwlfg=19.01.2020 20:26:1719.01.2020 20:26:17</TimeStamp>
+        <TimeStamp>ZOyZKmgdhI7vvnTqEu31ljTwlfg=02.02.2020 18:21:3902.02.2020 18:21:39</TimeStamp>
         <ID>
           <String>Employee</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>MEtA8bb0YtrNiQuW7dMS0AM9jX8=19.01.2020 20:26:1719.01.2020 20:26:16HpzKdHkTBK4rXXm+2YpyRZLQZfE=19.01.2020 20:26:1719.01.2020 20:26:17</TimeStamp>
+        <TimeStamp>MEtA8bb0YtrNiQuW7dMS0AM9jX8=02.02.2020 18:21:3902.02.2020 18:21:39HpzKdHkTBK4rXXm+2YpyRZLQZfE=02.02.2020 18:21:3902.02.2020 18:21:39</TimeStamp>
         <ID>
           <String>Wide World Importers DW</String>
         </ID>
@@ -90,7 +90,7 @@
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>HJXh63hM3KGlJSiOu8Z0kjP5lvI=19.01.2020 20:02:1119.01.2020 20:02:10</TimeStamp>
+      <TimeStamp>HJXh63hM3KGlJSiOu8Z0kjP5lvI=02.02.2020 18:21:3902.02.2020 18:21:39</TimeStamp>
       <ID>
         <String>Modele Analizy Danych_Prokekt_Zal</String>
       </ID>
@@ -98,6 +98,6 @@
     <Granularity>Coarse</Granularity>
   </Snapshot>
   <AssemblyLocations />
-  <ProcessingComplete>false</ProcessingComplete>
-  <LastDeployed>2020-01-19T19:37:57.783333Z</LastDeployed>
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2020-02-02T17:28:19.586667Z</LastDeployed>
 </DeploymentSnapshot>
