@@ -26,7 +26,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>FbB3l4ffCEl9d/LdRfmm4cbowfI=09.02.2020 14:47:0309.02.2020 14:47:02</TimeStamp>
+        <TimeStamp>gEmgxrvIQZKXfkZP0jDtvDCwoLg=09.02.2020 18:28:2209.02.2020 14:47:02</TimeStamp>
         <ID>
           <String>Wide World Importers DW</String>
         </ID>
@@ -40,7 +40,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>tKqPl9c623Ox20bQ8RRHZn6aOu4=09.02.2020 16:02:1609.02.2020 14:49:54</TimeStamp>
+        <TimeStamp>nHlNBdWt3AUHMIibSt0oiq/kp8g=09.02.2020 18:27:4409.02.2020 14:49:54</TimeStamp>
         <ID>
           <String>Date</String>
         </ID>
@@ -89,7 +89,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>zwTpjwqwsQ3Ip1o+CqmlxWSkXC4=09.02.2020 18:09:4109.02.2020 14:49:54</TimeStamp>
+        <TimeStamp>n95bmk3FARhYgNS+8bq8N0C1Xjo=09.02.2020 18:28:2209.02.2020 14:49:54</TimeStamp>
         <ID>
           <String>Sale</String>
         </ID>
@@ -123,8 +123,15 @@
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>WSS57fo82FWgm7pi8TIoNpC+BMg=09.02.2020 19:05:4709.02.2020 18:38:02</TimeStamp>
+        <ID>
+          <String>DataZmiana</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>58gyCGUQxm+LvSZ7u/zRPDH8r/k=09.02.2020 18:09:4109.02.2020 14:49:54hdaHm7iHXraEAh0n9P8OBdjuIzg=09.02.2020 16:17:0809.02.2020 14:49:54</TimeStamp>
+        <TimeStamp>l7gSixRNFJelm/vMZ5kxfDV7DJw=09.02.2020 18:28:2209.02.2020 14:49:54hdaHm7iHXraEAh0n9P8OBdjuIzg=09.02.2020 16:17:0809.02.2020 14:49:54</TimeStamp>
         <ID>
           <String>Wide World Importers DW</String>
         </ID>
@@ -141,5 +148,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2020-02-09T17:09:43.426667Z</LastDeployed>
+  <LastDeployed>2020-02-09T18:05:49.67Z</LastDeployed>
 </DeploymentSnapshot>

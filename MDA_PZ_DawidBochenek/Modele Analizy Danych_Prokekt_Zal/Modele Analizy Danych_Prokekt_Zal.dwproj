@@ -71,6 +71,10 @@
       <Name>Transaction.dim</Name>
       <FullPath>Transaction.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>DataZmiana.dim</Name>
+      <FullPath>DataZmiana.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>

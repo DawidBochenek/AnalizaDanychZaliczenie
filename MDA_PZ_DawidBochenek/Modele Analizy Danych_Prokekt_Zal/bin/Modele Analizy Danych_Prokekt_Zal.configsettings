@@ -51,6 +51,9 @@
       <Dimension>
         <ID>Customer</ID>
       </Dimension>
+      <Dimension>
+        <ID>DataZmiana</ID>
+      </Dimension>
     </Dimensions>
     <Cubes>
       <Cube>

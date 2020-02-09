@@ -853,14 +853,6 @@
           <AttributeID>Day</AttributeID>
         </Attribute>
       </Attributes>
-      <Hierarchies>
-        <Hierarchy dwd:design-time-name="5052cb55-dcc6-49ad-83a1-0d03cf9d380c">
-          <HierarchyID>Hierarchy</HierarchyID>
-        </Hierarchy>
-        <Hierarchy dwd:design-time-name="ade44cd4-ceee-4ee1-89a8-02d28386af39">
-          <HierarchyID>Hierarchy 1</HierarchyID>
-        </Hierarchy>
-      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="1a03dbe2-29bd-4c78-927b-ce7f296842bf">
       <ID>Customer</ID>
@@ -950,14 +942,6 @@
           <AttributeID>Day</AttributeID>
         </Attribute>
       </Attributes>
-      <Hierarchies>
-        <Hierarchy dwd:design-time-name="23037fc3-506a-4bf5-91b7-1f375801e51e">
-          <HierarchyID>Hierarchy</HierarchyID>
-        </Hierarchy>
-        <Hierarchy dwd:design-time-name="4ab5a144-a907-4283-a925-c13887cc1759">
-          <HierarchyID>Hierarchy 1</HierarchyID>
-        </Hierarchy>
-      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="8cd81f91-8a6c-49d2-a33e-cf841a2f8c11">
       <ID>Salesperson</ID>
@@ -1006,14 +990,6 @@
           <AttributeID>Day</AttributeID>
         </Attribute>
       </Attributes>
-      <Hierarchies>
-        <Hierarchy dwd:design-time-name="3d9b867f-dafd-4758-9155-d35e35967730">
-          <HierarchyID>Hierarchy</HierarchyID>
-        </Hierarchy>
-        <Hierarchy dwd:design-time-name="86df1fe9-180f-42e8-bee0-3f4dc1c09d88">
-          <HierarchyID>Hierarchy 1</HierarchyID>
-        </Hierarchy>
-      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="ec6113f4-615b-4151-8be8-0467466df1b1">
       <ID>Picker</ID>
@@ -1098,14 +1074,6 @@
           <AttributeID>Day</AttributeID>
         </Attribute>
       </Attributes>
-      <Hierarchies>
-        <Hierarchy dwd:design-time-name="1a692e57-28d0-435c-bce8-3647a9469cf4">
-          <HierarchyID>Hierarchy</HierarchyID>
-        </Hierarchy>
-        <Hierarchy dwd:design-time-name="af52c0d8-f750-4928-a2a8-d5e04833419e">
-          <HierarchyID>Hierarchy 1</HierarchyID>
-        </Hierarchy>
-      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="61376d59-44ff-46bf-9e9d-e56fa68de5e0">
       <ID>Invoice Date</ID>
@@ -1134,14 +1102,6 @@
           <AttributeID>Day</AttributeID>
         </Attribute>
       </Attributes>
-      <Hierarchies>
-        <Hierarchy dwd:design-time-name="aba035e6-b6f3-445b-b404-b99f24cf8cff">
-          <HierarchyID>Hierarchy</HierarchyID>
-        </Hierarchy>
-        <Hierarchy dwd:design-time-name="fbee9040-d9ef-484c-80a4-2ee288caf48c">
-          <HierarchyID>Hierarchy 1</HierarchyID>
-        </Hierarchy>
-      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="d7909031-3a72-47b7-bfd4-1d766797c276">
       <ID>Bill To Customer</ID>
