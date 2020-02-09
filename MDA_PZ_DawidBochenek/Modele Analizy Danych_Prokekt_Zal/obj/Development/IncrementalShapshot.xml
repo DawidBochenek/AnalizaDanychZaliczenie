@@ -40,7 +40,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>W/5rimc9k9S4gqsgu4m/xSGAH14=09.02.2020 15:37:5809.02.2020 14:49:54</TimeStamp>
+        <TimeStamp>tTMkR/h4VPU+tzDP1/+hddvo0LQ=09.02.2020 15:51:3509.02.2020 14:49:54</TimeStamp>
         <ID>
           <String>Date</String>
         </ID>
@@ -124,7 +124,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>gn9XPRmVojCgGpMMdaDBZwrmDYE=09.02.2020 15:37:5809.02.2020 14:49:54Ee1Wef/e00bGqkYMmfQH8gnsPoo=09.02.2020 14:50:4209.02.2020 14:49:54</TimeStamp>
+        <TimeStamp>xSpekmZ2gNXtxJreVEoDr811xmw=09.02.2020 15:51:3509.02.2020 14:49:54Ee1Wef/e00bGqkYMmfQH8gnsPoo=09.02.2020 14:50:4209.02.2020 14:49:54</TimeStamp>
         <ID>
           <String>Wide World Importers DW</String>
         </ID>
@@ -141,5 +141,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2020-02-09T14:37:58.96Z</LastDeployed>
+  <LastDeployed>2020-02-09T14:52:38.993333Z</LastDeployed>
 </DeploymentSnapshot>

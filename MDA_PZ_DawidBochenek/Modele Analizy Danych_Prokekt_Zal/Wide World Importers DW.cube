@@ -828,12 +828,18 @@
         <Attribute dwd:design-time-name="9f2326fd-ac86-40b1-80bd-2f89ee0d7783">
           <AttributeID>Date</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="19a797cf-9e9c-43fc-be2f-de0dfc5a58a2">
-          <AttributeID>Fiscal Year Label</AttributeID>
+        <Attribute dwd:design-time-name="fcfb85d8-a95f-4f48-82c5-9c06e5b71245">
+          <AttributeID>Calendar Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d3a74e97-429a-4238-a07e-faf747451cb3">
+          <AttributeID>Calendar Month Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ae8342ca-1156-4f65-bb75-77bfd3493b51">
+          <AttributeID>Day Number</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="aeb10452-817d-445e-a7d6-77609c7a5388">
+        <Hierarchy dwd:design-time-name="516fa70f-a37b-4b50-963c-3ab37933d9b4">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
@@ -907,12 +913,18 @@
         <Attribute dwd:design-time-name="85f84b97-cc9a-459f-bdba-863ba392e05a">
           <AttributeID>Date</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="398e146a-136f-4eee-9bc4-79d1a8767341">
-          <AttributeID>Fiscal Year Label</AttributeID>
+        <Attribute dwd:design-time-name="4d3191ba-5021-4af9-afa4-8445d4043272">
+          <AttributeID>Calendar Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f6c77153-1ece-4024-83c0-1996264b5f99">
+          <AttributeID>Calendar Month Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7cc7693a-53a7-4df3-a90b-9435c43859ce">
+          <AttributeID>Day Number</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="97c0d67d-cbca-4045-9580-03d108205996">
+        <Hierarchy dwd:design-time-name="470a8a1c-c018-47d0-b32a-f6febc56369e">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
@@ -945,12 +957,18 @@
         <Attribute dwd:design-time-name="eaface20-97f0-4914-b201-77bd13ed7ece">
           <AttributeID>Date</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="c42aea4b-f693-4bce-b43d-0874ccc51bc7">
-          <AttributeID>Fiscal Year Label</AttributeID>
+        <Attribute dwd:design-time-name="86f74eb4-b341-4f84-9297-0d3dab6af18e">
+          <AttributeID>Calendar Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7897e2da-7652-4a3c-8b69-bd98e7a1cc9e">
+          <AttributeID>Calendar Month Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="25437e09-f1a9-4171-99ff-7b9854b54834">
+          <AttributeID>Day Number</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="a615a4bf-c1bc-4950-a774-2ec118447dfb">
+        <Hierarchy dwd:design-time-name="34bdfc25-e3e7-4a2f-aa7a-481613f681fb">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
@@ -1023,12 +1041,18 @@
         <Attribute dwd:design-time-name="25a34cd4-985a-42f5-85ac-665e856d79e2">
           <AttributeID>Date</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="93079028-a7ac-43fc-a0c3-68c4605ae7c3">
-          <AttributeID>Fiscal Year Label</AttributeID>
+        <Attribute dwd:design-time-name="0cbc4d14-8c10-41a1-898e-b51fb282dd38">
+          <AttributeID>Calendar Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="86702fb0-383f-4005-b611-a4c26cd14ed4">
+          <AttributeID>Calendar Month Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7fd5c58e-b7a1-46a1-b6e0-4d28202e9e64">
+          <AttributeID>Day Number</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="7f66a9a1-9f52-4d5d-847b-608638c0c7d2">
+        <Hierarchy dwd:design-time-name="98262e68-73f0-45c3-9462-38cf18c92664">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
@@ -1041,12 +1065,18 @@
         <Attribute dwd:design-time-name="d10d958b-1639-4983-99b2-9531cfd0de34">
           <AttributeID>Date</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="2d15c3b3-d94f-416f-8d3f-6180742f178f">
-          <AttributeID>Fiscal Year Label</AttributeID>
+        <Attribute dwd:design-time-name="2c46851b-2e45-4208-9e56-36445055b193">
+          <AttributeID>Calendar Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0263f85a-5412-4917-9743-16a41ebc7e7f">
+          <AttributeID>Calendar Month Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="80203b39-f3ef-41f9-99fb-b2f959cd4c8c">
+          <AttributeID>Day Number</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="c13051c9-f8f7-4ced-9b6c-4d8e9275fd01">
+        <Hierarchy dwd:design-time-name="1e5975a0-bbd9-4740-a252-ce83a917a840">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>

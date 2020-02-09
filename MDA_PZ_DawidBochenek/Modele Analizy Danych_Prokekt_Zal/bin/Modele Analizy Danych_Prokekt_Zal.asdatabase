@@ -163,11 +163,23 @@
                   </Attributes>
                   <Position x="20" y="20" />
                 </Shape>
-                <Shape Id="Fiscal Year Label" Expanded="false">
+                <Shape Id="Day Number" Expanded="false">
                   <Attributes>
-                    <Attribute Id="Fiscal Year Label" />
+                    <Attribute Id="Day Number" />
                   </Attributes>
                   <Position x="97" y="20" />
+                </Shape>
+                <Shape Id="Calendar Month Number" Expanded="false">
+                  <Attributes>
+                    <Attribute Id="Calendar Month Number" />
+                  </Attributes>
+                  <Position x="97" y="68" />
+                </Shape>
+                <Shape Id="Calendar Year" Expanded="false">
+                  <Attributes>
+                    <Attribute Id="Calendar Year" />
+                  </Attributes>
+                  <Position x="97" y="116" />
                 </Shape>
               </Shapes>
             </DiagramLayout>
@@ -203,8 +215,16 @@
           </KeyColumns>
           <AttributeRelationships>
             <AttributeRelationship>
-              <AttributeID>Fiscal Year Label</AttributeID>
-              <Name>Fiscal Year Label</Name>
+              <AttributeID>Calendar Year</AttributeID>
+              <Name>Calendar Year</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Calendar Month Number</AttributeID>
+              <Name>Calendar Month Number</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Day Number</AttributeID>
+              <Name>Day Number</Name>
             </AttributeRelationship>
           </AttributeRelationships>
           <OrderBy>Key</OrderBy>
@@ -212,15 +232,44 @@
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
         <Attribute>
-          <ID>Fiscal Year Label</ID>
-          <Name>Fiscal Year Label</Name>
+          <ID>Calendar Year</ID>
+          <Name>Calendar Year</Name>
           <KeyColumns>
             <KeyColumn>
-              <DataType>WChar</DataType>
-              <DataSize>10</DataSize>
+              <DataType>Integer</DataType>
               <Source xsi:type="ColumnBinding">
                 <TableID>Dimension_Date</TableID>
-                <ColumnID>Fiscal_x0020_Year_x0020_Label</ColumnID>
+                <ColumnID>Calendar_x0020_Year</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Calendar Month Number</ID>
+          <Name>Calendar Month Number</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Integer</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>Dimension_Date</TableID>
+                <ColumnID>Calendar_x0020_Month_x0020_Number</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Day Number</ID>
+          <Name>Day Number</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Integer</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>Dimension_Date</TableID>
+                <ColumnID>Day_x0020_Number</ColumnID>
               </Source>
             </KeyColumn>
           </KeyColumns>
@@ -231,12 +280,22 @@
       <Hierarchies>
         <Hierarchy>
           <ID>Hierarchy</ID>
-          <Name>Hierarchy</Name>
+          <Name>DataKalendarzowa</Name>
           <Levels>
             <Level>
-              <ID>Fiscal Year Label</ID>
-              <Name>Fiscal Year Label</Name>
-              <SourceAttributeID>Fiscal Year Label</SourceAttributeID>
+              <ID>Calendar Year</ID>
+              <Name>Calendar Year</Name>
+              <SourceAttributeID>Calendar Year</SourceAttributeID>
+            </Level>
+            <Level>
+              <ID>Calendar Month Number</ID>
+              <Name>Calendar Month Number</Name>
+              <SourceAttributeID>Calendar Month Number</SourceAttributeID>
+            </Level>
+            <Level>
+              <ID>Day Number</ID>
+              <Name>Day Number</Name>
+              <SourceAttributeID>Day Number</SourceAttributeID>
             </Level>
           </Levels>
         </Hierarchy>
@@ -2464,7 +2523,13 @@
               <AttributeID>Date</AttributeID>
             </Attribute>
             <Attribute>
-              <AttributeID>Fiscal Year Label</AttributeID>
+              <AttributeID>Calendar Year</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Calendar Month Number</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Day Number</AttributeID>
             </Attribute>
           </Attributes>
           <Hierarchies>
@@ -2543,7 +2608,13 @@
               <AttributeID>Date</AttributeID>
             </Attribute>
             <Attribute>
-              <AttributeID>Fiscal Year Label</AttributeID>
+              <AttributeID>Calendar Year</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Calendar Month Number</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Day Number</AttributeID>
             </Attribute>
           </Attributes>
           <Hierarchies>
@@ -2581,7 +2652,13 @@
               <AttributeID>Date</AttributeID>
             </Attribute>
             <Attribute>
-              <AttributeID>Fiscal Year Label</AttributeID>
+              <AttributeID>Calendar Year</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Calendar Month Number</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Day Number</AttributeID>
             </Attribute>
           </Attributes>
           <Hierarchies>
@@ -2659,7 +2736,13 @@
               <AttributeID>Date</AttributeID>
             </Attribute>
             <Attribute>
-              <AttributeID>Fiscal Year Label</AttributeID>
+              <AttributeID>Calendar Year</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Calendar Month Number</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Day Number</AttributeID>
             </Attribute>
           </Attributes>
           <Hierarchies>
@@ -2677,7 +2760,13 @@
               <AttributeID>Date</AttributeID>
             </Attribute>
             <Attribute>
-              <AttributeID>Fiscal Year Label</AttributeID>
+              <AttributeID>Calendar Year</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Calendar Month Number</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Day Number</AttributeID>
             </Attribute>
           </Attributes>
           <Hierarchies>
