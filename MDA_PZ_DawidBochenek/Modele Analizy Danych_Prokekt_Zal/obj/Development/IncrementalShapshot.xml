@@ -124,7 +124,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>WSS57fo82FWgm7pi8TIoNpC+BMg=09.02.2020 19:05:4709.02.2020 18:38:02</TimeStamp>
+        <TimeStamp>MJerV9lumZP56YlhQJxIhEM+vFQ=09.02.2020 19:08:0109.02.2020 18:38:02</TimeStamp>
         <ID>
           <String>DataZmiana</String>
         </ID>
@@ -148,5 +148,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2020-02-09T18:05:49.67Z</LastDeployed>
+  <LastDeployed>2020-02-09T18:08:03.443333Z</LastDeployed>
 </DeploymentSnapshot>
