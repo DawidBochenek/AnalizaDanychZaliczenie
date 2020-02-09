@@ -2700,27 +2700,32 @@
                 <Shape Id="Date" Expanded="true">
                   <Attributes>
                     <Attribute Id="Date" />
-                    <Attribute Id="Day" />
                   </Attributes>
                   <Position x="20" y="20" />
+                </Shape>
+                <Shape Id="Day" Expanded="false">
+                  <Attributes>
+                    <Attribute Id="Day" />
+                  </Attributes>
+                  <Position x="238" y="20" />
                 </Shape>
                 <Shape Id="Month" Expanded="false">
                   <Attributes>
                     <Attribute Id="Month" />
                   </Attributes>
-                  <Position x="238" y="20" />
+                  <Position x="457" y="20" />
                 </Shape>
                 <Shape Id="Calendar Year" Expanded="false">
                   <Attributes>
                     <Attribute Id="Calendar Year" />
                   </Attributes>
-                  <Position x="457" y="20" />
+                  <Position x="676" y="20" />
                 </Shape>
                 <Shape Id="Fiscal Year" Expanded="false">
                   <Attributes>
                     <Attribute Id="Fiscal Year" />
                   </Attributes>
-                  <Position x="457" y="68" />
+                  <Position x="676" y="68" />
                 </Shape>
               </Shapes>
             </DiagramLayout>
@@ -2761,10 +2766,6 @@
               <AttributeID>Day</AttributeID>
               <Name>Day</Name>
             </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Month</AttributeID>
-              <Name>Month</Name>
-            </AttributeRelationship>
           </AttributeRelationships>
           <OrderBy>Key</OrderBy>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
@@ -2798,6 +2799,12 @@
               <ColumnID>Day</ColumnID>
             </Source>
           </NameColumn>
+          <AttributeRelationships>
+            <AttributeRelationship>
+              <AttributeID>Month</AttributeID>
+              <Name>Month</Name>
+            </AttributeRelationship>
+          </AttributeRelationships>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
@@ -2902,6 +2909,11 @@
               <ID>Month</ID>
               <Name>Month</Name>
               <SourceAttributeID>Month</SourceAttributeID>
+            </Level>
+            <Level>
+              <ID>Day</ID>
+              <Name>Day</Name>
+              <SourceAttributeID>Day</SourceAttributeID>
             </Level>
             <Level>
               <ID>Date</ID>
