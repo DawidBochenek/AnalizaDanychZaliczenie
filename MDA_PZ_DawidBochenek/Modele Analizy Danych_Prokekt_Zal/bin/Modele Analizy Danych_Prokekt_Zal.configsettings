@@ -114,6 +114,14 @@
               </Partition>
             </Partitions>
           </MeasureGroup>
+          <MeasureGroup>
+            <ID>Stock Item</ID>
+            <Partitions>
+              <Partition>
+                <ID>Stock Item</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
         </MeasureGroups>
       </Cube>
     </Cubes>
