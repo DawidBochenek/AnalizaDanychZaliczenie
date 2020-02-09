@@ -3,7 +3,7 @@
     <Configuration>
       <Name>Development</Name>
       <Options>
-        <TargetServer>DESKTOP-Q9K591A</TargetServer>
+        <TargetServer>DESKTOP-NBQ2S6L</TargetServer>
         <TargetDatabase>Modele Analizy Danych_Prokekt_Zal</TargetDatabase>
         <StartObject>
           <ObjectId></ObjectId>

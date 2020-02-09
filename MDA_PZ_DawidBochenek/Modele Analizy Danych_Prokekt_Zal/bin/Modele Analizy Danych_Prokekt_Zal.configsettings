@@ -33,6 +33,9 @@
       <Dimension>
         <ID>Employee</ID>
       </Dimension>
+      <Dimension>
+        <ID>Sale</ID>
+      </Dimension>
     </Dimensions>
     <Cubes>
       <Cube>
