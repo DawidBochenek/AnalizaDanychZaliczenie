@@ -341,7 +341,7 @@
       <AttributeRelationships>
         <AttributeRelationship dwd:design-time-name="2347b49d-e09d-48a7-9f60-a5779f619c21">
           <AttributeID>City Key</AttributeID>
-          <Name>City Key</Name>
+          <Name>Miasto</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
@@ -349,7 +349,7 @@
     </Attribute>
     <Attribute dwd:design-time-name="7c1929c1-7760-46f4-ab21-c07fd6d6419c">
       <ID>City Key</ID>
-      <Name>City Key</Name>
+      <Name>Miasto</Name>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="9c581667-5dfa-4b7b-99a8-aeb55298d901">
           <DataType>Integer</DataType>
@@ -432,7 +432,7 @@
   <Hierarchies>
     <Hierarchy dwd:design-time-name="78258900-4c6e-4df3-8779-68e09d1e633b">
       <ID>Hierarchy</ID>
-      <Name>Hierarchy</Name>
+      <Name>StrukturaGeograficzna</Name>
       <Levels>
         <Level dwd:design-time-name="ccc8b0d9-2d31-4e37-aee0-39bdf165039b">
           <ID>Continent</ID>
@@ -451,7 +451,7 @@
         </Level>
         <Level dwd:design-time-name="5f79e228-4381-4bf7-99d9-712863d95e3a">
           <ID>City Key</ID>
-          <Name>City Key</Name>
+          <Name>Miasto</Name>
           <SourceAttributeID>City Key</SourceAttributeID>
         </Level>
         <Level dwd:design-time-name="672bbd0c-7925-49e7-b316-0b998c980eff">
