@@ -198,6 +198,12 @@
         <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
       </ErrorConfiguration>
       <CurrentStorageMode>Molap</CurrentStorageMode>
+      <Translations>
+        <Translation>
+          <Language>1045</Language>
+          <Caption>Data</Caption>
+        </Translation>
+      </Translations>
       <Attributes>
         <Attribute>
           <ID>Date</ID>
@@ -243,6 +249,12 @@
               </Source>
             </KeyColumn>
           </KeyColumns>
+          <Translations>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Rok Kalendarzowy nr</Caption>
+            </Translation>
+          </Translations>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
@@ -258,6 +270,12 @@
               </Source>
             </KeyColumn>
           </KeyColumns>
+          <Translations>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Miesiąc Kalendarzowy nr</Caption>
+            </Translation>
+          </Translations>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
@@ -273,6 +291,12 @@
               </Source>
             </KeyColumn>
           </KeyColumns>
+          <Translations>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Dzień Kalendarzowy nr</Caption>
+            </Translation>
+          </Translations>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
@@ -280,22 +304,40 @@
       <Hierarchies>
         <Hierarchy>
           <ID>Hierarchy</ID>
-          <Name>DataKalendarzowa</Name>
+          <Name>DataKalendarzowaNumeryczna</Name>
           <Levels>
             <Level>
               <ID>Calendar Year</ID>
               <Name>Calendar Year</Name>
               <SourceAttributeID>Calendar Year</SourceAttributeID>
+              <Translations>
+                <Translation>
+                  <Language>1045</Language>
+                  <Caption>Rok Kalendarzowy nr</Caption>
+                </Translation>
+              </Translations>
             </Level>
             <Level>
               <ID>Calendar Month Number</ID>
               <Name>Calendar Month Number</Name>
               <SourceAttributeID>Calendar Month Number</SourceAttributeID>
+              <Translations>
+                <Translation>
+                  <Language>1045</Language>
+                  <Caption>Miesiąc Kalendarzowy nr</Caption>
+                </Translation>
+              </Translations>
             </Level>
             <Level>
               <ID>Day Number</ID>
               <Name>Day Number</Name>
               <SourceAttributeID>Day Number</SourceAttributeID>
+              <Translations>
+                <Translation>
+                  <Language>1045</Language>
+                  <Caption>Dzień Kalendarzowy nr</Caption>
+                </Translation>
+              </Translations>
             </Level>
           </Levels>
         </Hierarchy>

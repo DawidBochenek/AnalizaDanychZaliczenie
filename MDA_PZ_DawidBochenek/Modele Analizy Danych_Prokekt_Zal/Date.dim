@@ -111,6 +111,12 @@
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Translations>
+    <Translation dwd:design-time-name="197ba658-33a9-4937-99fa-9176cad5c921">
+      <Language>1045</Language>
+      <Caption>Data</Caption>
+    </Translation>
+  </Translations>
   <Attributes>
     <Attribute dwd:design-time-name="bb1f0891-7607-471e-8f5d-ed19458c5ee4">
       <ID>Date</ID>
@@ -156,6 +162,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="df84fcb6-081b-4b79-93f2-5ee627c08910">
+          <Language>1045</Language>
+          <Caption>Rok Kalendarzowy nr</Caption>
+        </Translation>
+      </Translations>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
@@ -171,6 +183,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="92687482-dad2-4e63-b633-ed3dfb59beee">
+          <Language>1045</Language>
+          <Caption>Miesiąc Kalendarzowy nr</Caption>
+        </Translation>
+      </Translations>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
@@ -186,6 +204,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="307ecf71-9a32-472a-a2af-09f622dbc028">
+          <Language>1045</Language>
+          <Caption>Dzień Kalendarzowy nr</Caption>
+        </Translation>
+      </Translations>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
@@ -193,22 +217,40 @@
   <Hierarchies>
     <Hierarchy dwd:design-time-name="9fa5d2a8-f1f6-40db-bfe9-70fc43f8a0ed">
       <ID>Hierarchy</ID>
-      <Name>DataKalendarzowa</Name>
+      <Name>DataKalendarzowaNumeryczna</Name>
       <Levels>
         <Level dwd:design-time-name="443e25e2-fea3-4fb8-ae00-1cd7c6dc74b0">
           <ID>Calendar Year</ID>
           <Name>Calendar Year</Name>
           <SourceAttributeID>Calendar Year</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="1a4c9433-ca6e-4e17-a597-631527df1a5d">
+              <Language>1045</Language>
+              <Caption>Rok Kalendarzowy nr</Caption>
+            </Translation>
+          </Translations>
         </Level>
         <Level dwd:design-time-name="e6589970-6da7-466d-917a-139b1ab584ab">
           <ID>Calendar Month Number</ID>
           <Name>Calendar Month Number</Name>
           <SourceAttributeID>Calendar Month Number</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="d2d4fd51-3dc2-4c49-9631-6b54b8607d17">
+              <Language>1045</Language>
+              <Caption>Miesiąc Kalendarzowy nr</Caption>
+            </Translation>
+          </Translations>
         </Level>
         <Level dwd:design-time-name="aea7f726-522b-4361-a98c-91ca6f7c366c">
           <ID>Day Number</ID>
           <Name>Day Number</Name>
           <SourceAttributeID>Day Number</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="1fdbb0d1-c6ca-4c90-8404-dd2dc1ff1d66">
+              <Language>1045</Language>
+              <Caption>Dzień Kalendarzowy nr</Caption>
+            </Translation>
+          </Translations>
         </Level>
       </Levels>
     </Hierarchy>
