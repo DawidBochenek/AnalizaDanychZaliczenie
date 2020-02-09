@@ -82,26 +82,6 @@
       </Partitions>
     </MeasureGroup>
     <MeasureGroup>
-      <ID>Supplier</ID>
-      <Partitions>
-        <Partition dwd:design-time-name="7c0fd856-dd82-4438-829b-09b7650af304">
-          <ID>Supplier</ID>
-          <Name>Supplier</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-          <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="9039da77-323f-4c2e-9a51-f775fe9031df">
-            <DataSourceViewID>Wide World Importers DW</DataSourceViewID>
-            <TableID>Dimension_Supplier</TableID>
-          </Source>
-          <StorageMode>Molap</StorageMode>
-          <CurrentStorageMode>Molap</CurrentStorageMode>
-          <ProcessingMode>Regular</ProcessingMode>
-        </Partition>
-      </Partitions>
-    </MeasureGroup>
-    <MeasureGroup>
       <ID>Transaction Type</ID>
       <Partitions>
         <Partition dwd:design-time-name="2e7f609a-6f66-4540-9a8c-ec7e8081ad58">

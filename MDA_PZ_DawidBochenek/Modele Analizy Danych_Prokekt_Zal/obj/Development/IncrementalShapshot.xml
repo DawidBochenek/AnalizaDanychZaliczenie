@@ -8,7 +8,7 @@
     <TransactionalDeployment>false</TransactionalDeployment>
     <PartitionDeployment>DeployPartitions</PartitionDeployment>
     <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
-    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <ProcessingOption>Default</ProcessingOption>
     <OutputScript></OutputScript>
     <ImpactAnalysisFile></ImpactAnalysisFile>
     <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
@@ -110,7 +110,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>XI/rldUWkg10cP8rR9VFP4s/upY=09.02.2020 11:50:5309.02.2020 11:50:52uSFJqJKr8r5ndUbZ746p3eixGqQ=09.02.2020 11:50:5309.02.2020 11:50:52</TimeStamp>
+        <TimeStamp>+4uRE5RMhiFMcux6KSDNTt0ykAM=09.02.2020 12:03:0209.02.2020 11:50:52hkVN72D1mqeeixPKQ7YbeWwQjgk=09.02.2020 12:03:0209.02.2020 11:50:52</TimeStamp>
         <ID>
           <String>Wide World Importers DW v2</String>
         </ID>
@@ -127,5 +127,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2020-02-09T10:51:01.16Z</LastDeployed>
+  <LastDeployed>2020-02-09T11:03:32.223333Z</LastDeployed>
 </DeploymentSnapshot>

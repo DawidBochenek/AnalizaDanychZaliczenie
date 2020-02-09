@@ -75,26 +75,10 @@
             </Partitions>
           </MeasureGroup>
           <MeasureGroup>
-            <ID>Employee</ID>
-            <Partitions>
-              <Partition>
-                <ID>Employee</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
             <ID>Payment Method</ID>
             <Partitions>
               <Partition>
                 <ID>Payment Method</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
-            <ID>Supplier</ID>
-            <Partitions>
-              <Partition>
-                <ID>Supplier</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>

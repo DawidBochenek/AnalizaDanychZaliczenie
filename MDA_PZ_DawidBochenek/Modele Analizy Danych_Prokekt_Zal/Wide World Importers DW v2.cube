@@ -1217,64 +1217,6 @@
       </Dimensions>
       <Partitions />
     </MeasureGroup>
-    <MeasureGroup dwd:design-time-name="a90972bf-47b5-408e-9951-6ac6b65892ff">
-      <ID>Supplier</ID>
-      <Name>Supplier</Name>
-      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-      <State>Unprocessed</State>
-      <Measures>
-        <Measure dwd:design-time-name="017c5ff9-114d-427f-8dae-31ada9353e51">
-          <ID>WWI Supplier ID</ID>
-          <Name>WWI Supplier ID</Name>
-          <Source dwd:design-time-name="ad4cb4b7-0203-4bdf-a7a1-2fd51d1bd61c">
-            <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="f68813e2-6c1c-49fb-9428-df62bdfd5bbc">
-              <TableID>Dimension_Supplier</TableID>
-              <ColumnID>WWI_x0020_Supplier_x0020_ID</ColumnID>
-            </Source>
-          </Source>
-        </Measure>
-        <Measure dwd:design-time-name="3e6a3422-9d16-4136-bce1-a1520422e1a0">
-          <ID>Payment Days</ID>
-          <Name>Payment Days</Name>
-          <Source dwd:design-time-name="26c10c1c-3c85-45fc-a38f-1fc0fe32e908">
-            <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="c10d5b57-f28a-4e9a-a5b8-c529ecd9a321">
-              <TableID>Dimension_Supplier</TableID>
-              <ColumnID>Payment_x0020_Days</ColumnID>
-            </Source>
-          </Source>
-        </Measure>
-        <Measure dwd:design-time-name="25032e64-7035-49f0-ae41-08792d251986">
-          <ID>Lineage Key - Supplier</ID>
-          <Name>Lineage Key - Supplier</Name>
-          <Source dwd:design-time-name="bbec6dec-a5ce-4573-99d5-dd112cbcbf41">
-            <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="dc77ae6a-105a-4f20-baf7-50bc1c4eea23">
-              <TableID>Dimension_Supplier</TableID>
-              <ColumnID>Lineage_x0020_Key</ColumnID>
-            </Source>
-          </Source>
-        </Measure>
-        <Measure dwd:design-time-name="9be55e0f-4d80-4682-92bd-5bda9b4e22eb">
-          <ID>Supplier Count</ID>
-          <Name>Supplier Count</Name>
-          <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="8a8315ab-5f20-460a-85b2-54843611dd23">
-            <DataType>Integer</DataType>
-            <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="f93612e2-ea2d-4943-bb69-ba275f1b3ae3">
-              <TableID>Dimension_Supplier</TableID>
-            </Source>
-          </Source>
-        </Measure>
-      </Measures>
-      <StorageMode>Molap</StorageMode>
-      <ProcessingMode>Regular</ProcessingMode>
-      <Partitions />
-    </MeasureGroup>
     <MeasureGroup dwd:design-time-name="5c5e2bdd-ee9e-42b4-84a8-870c51252879">
       <ID>Transaction Type</ID>
       <Name>Transaction Type</Name>
