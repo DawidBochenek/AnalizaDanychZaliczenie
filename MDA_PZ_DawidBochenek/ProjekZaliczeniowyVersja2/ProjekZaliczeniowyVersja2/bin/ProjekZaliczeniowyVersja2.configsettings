@@ -30,6 +30,9 @@
       <Dimension>
         <ID>Sale</ID>
       </Dimension>
+      <Dimension>
+        <ID>Movement</ID>
+      </Dimension>
     </Dimensions>
     <Cubes>
       <Cube>

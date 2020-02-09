@@ -267,19 +267,28 @@
         <Attribute dwd:design-time-name="d0746fb9-eb6f-493a-b3dd-be943bf01778">
           <AttributeID>City Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="2ca464af-3956-4a29-aac2-5ecea2275fe0">
-          <AttributeID>State Province</AttributeID>
-        </Attribute>
         <Attribute dwd:design-time-name="2cc5a294-65c3-45c0-a15a-da5288f68c36">
           <AttributeID>Country</AttributeID>
         </Attribute>
         <Attribute dwd:design-time-name="d4081855-1a2b-4678-9a14-da6d925b37c8">
           <AttributeID>Continent</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="1d4cdf42-d3c5-486c-a3ee-54d365474140">
+          <AttributeID>Stock Item Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="90a7e80e-c907-4ebe-88b1-dd07e057ac8b">
+          <AttributeID>Color</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d42fb696-e220-4dab-ad5d-b6e55bfb9042">
+          <AttributeID>State Province</AttributeID>
+        </Attribute>
       </Attributes>
       <Hierarchies>
         <Hierarchy dwd:design-time-name="0896d6a9-6800-4c6a-bd0e-ce091c8e6a92">
           <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="d7d33c42-c9d8-4c74-b707-f4cd79a21773">
+          <HierarchyID>Hierarchy 1</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
@@ -803,6 +812,17 @@
             </Source>
           </Source>
         </Measure>
+        <Measure dwd:design-time-name="52a84913-5953-4737-8674-5ef0a370a549">
+          <ID>Unit Price</ID>
+          <Name>Unit Price</Name>
+          <Source dwd:design-time-name="91859922-b1ee-4dcd-a45a-b4e237742bdd">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="07e50588-99ef-4f0d-b13e-759c464cde4b">
+              <TableID>Dimension_Stock_x0020_Item</TableID>
+              <ColumnID>Unit_x0020_Price</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
       </Measures>
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
@@ -832,4 +852,26 @@
   <Source dwd:design-time-name="447028a4-d5f5-43b4-895f-34765e947d41">
     <DataSourceViewID>Wide World Importers DW</DataSourceViewID>
   </Source>
+  <MdxScripts>
+    <MdxScript dwd:design-time-name="414a9405-f1d6-4738-bf4b-e7007f891930">
+      <ID>MdxScript</ID>
+      <Name>MdxScript</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Commands>
+        <Command>
+          <Text>/*
+The CALCULATE command controls the aggregation of leaf cells in the cube.
+If the CALCULATE command is deleted or modified, the data within the cube is affected.
+You should edit this command only if you manually specify how the cube is aggregated.
+*/
+CALCULATE; 
+CREATE MEMBER CURRENTCUBE.[Measures].[ZyskaPerSztuka]
+ AS [Measures].[Profit]/[Measures].[Quantity - Sale], 
+FORMAT_STRING = "# ##0,00;-# ##0,00", 
+VISIBLE = 1  ; </Text>
+        </Command>
+      </Commands>
+    </MdxScript>
+  </MdxScripts>
 </Cube>

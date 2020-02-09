@@ -43,6 +43,14 @@
       <Name>Sale.dim</Name>
       <FullPath>Sale.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Movement.dim</Name>
+      <FullPath>Movement.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Transaction.dim</Name>
+      <FullPath>Transaction.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>

@@ -40,7 +40,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>Iy9qzclCM1K3dKVhwWasUgdUj3Y=09.02.2020 19:45:5709.02.2020 19:45:56</TimeStamp>
+        <TimeStamp>PSHIKXNtmzMWZqBj09GMZqmjANI=09.02.2020 20:22:0909.02.2020 19:45:56</TimeStamp>
         <ID>
           <String>Stock Item</String>
         </ID>
@@ -61,21 +61,28 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>vsyBkmbLRQ26kkkIjxNqke8hwaA=09.02.2020 19:45:5709.02.2020 19:45:57</TimeStamp>
+        <TimeStamp>nUSk8jk2njILDFYhWUVx2l3Etuk=09.02.2020 20:22:0909.02.2020 19:45:57</TimeStamp>
         <ID>
           <String>City</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>sKNQ7EVAnJxm0g0cNfZjJIoP7rk=09.02.2020 20:08:5909.02.2020 19:45:57</TimeStamp>
+        <TimeStamp>i1Olsj1jXbttA+9cUNDGEYbuneE=09.02.2020 20:22:0909.02.2020 19:45:57</TimeStamp>
         <ID>
           <String>Sale</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>H3r1CMjir0CvSXtSsPmog5UiW2Q=09.02.2020 20:26:0509.02.2020 20:22:09</TimeStamp>
+        <ID>
+          <String>Movement</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>8UApKk8g7LaQe9Y5BEWccmUsqj4=09.02.2020 20:08:5909.02.2020 19:45:56YccjdfG+T2eVJSoopbvan74NB4U=09.02.2020 19:45:5709.02.2020 19:45:56</TimeStamp>
+        <TimeStamp>h38qMP1Cxp7LdQcTrrXnT+IX/JI=09.02.2020 20:28:2209.02.2020 19:45:56YccjdfG+T2eVJSoopbvan74NB4U=09.02.2020 20:26:0509.02.2020 19:45:56</TimeStamp>
         <ID>
           <String>Wide World Importers DW</String>
         </ID>
@@ -92,5 +99,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2020-02-09T19:09:00.283333Z</LastDeployed>
+  <LastDeployed>2020-02-09T19:28:23.566667Z</LastDeployed>
 </DeploymentSnapshot>
