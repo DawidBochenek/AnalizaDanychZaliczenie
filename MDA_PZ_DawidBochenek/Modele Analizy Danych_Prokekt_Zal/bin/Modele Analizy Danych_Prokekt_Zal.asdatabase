@@ -2704,23 +2704,23 @@
                   </Attributes>
                   <Position x="20" y="20" />
                 </Shape>
-                <Shape Id="Fiscal Year" Expanded="false">
-                  <Attributes>
-                    <Attribute Id="Fiscal Year" />
-                  </Attributes>
-                  <Position x="238" y="20" />
-                </Shape>
-                <Shape Id="Calendar Month Number" Expanded="false">
-                  <Attributes>
-                    <Attribute Id="Calendar Month Number" />
-                  </Attributes>
-                  <Position x="238" y="68" />
-                </Shape>
                 <Shape Id="Month" Expanded="false">
                   <Attributes>
                     <Attribute Id="Month" />
                   </Attributes>
-                  <Position x="238" y="116" />
+                  <Position x="238" y="20" />
+                </Shape>
+                <Shape Id="Calendar Year" Expanded="false">
+                  <Attributes>
+                    <Attribute Id="Calendar Year" />
+                  </Attributes>
+                  <Position x="457" y="20" />
+                </Shape>
+                <Shape Id="Fiscal Year" Expanded="false">
+                  <Attributes>
+                    <Attribute Id="Fiscal Year" />
+                  </Attributes>
+                  <Position x="457" y="68" />
                 </Shape>
               </Shapes>
             </DiagramLayout>
@@ -2764,14 +2764,6 @@
             <AttributeRelationship>
               <AttributeID>Month</AttributeID>
               <Name>Month</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Fiscal Year</AttributeID>
-              <Name>Fiscal Year</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Calendar Year</AttributeID>
-              <Name>Calendar Year</Name>
             </AttributeRelationship>
           </AttributeRelationships>
           <OrderBy>Key</OrderBy>
@@ -2852,6 +2844,16 @@
               <ColumnID>Month</ColumnID>
             </Source>
           </NameColumn>
+          <AttributeRelationships>
+            <AttributeRelationship>
+              <AttributeID>Fiscal Year</AttributeID>
+              <Name>Fiscal Year</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Calendar Year</AttributeID>
+              <Name>Calendar Year</Name>
+            </AttributeRelationship>
+          </AttributeRelationships>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
@@ -2897,6 +2899,11 @@
               <SourceAttributeID>Fiscal Year</SourceAttributeID>
             </Level>
             <Level>
+              <ID>Month</ID>
+              <Name>Month</Name>
+              <SourceAttributeID>Month</SourceAttributeID>
+            </Level>
+            <Level>
               <ID>Date</ID>
               <Name>Date</Name>
               <SourceAttributeID>Date</SourceAttributeID>
@@ -2911,6 +2918,11 @@
               <ID>Calendar Year</ID>
               <Name>Calendar Year</Name>
               <SourceAttributeID>Calendar Year</SourceAttributeID>
+            </Level>
+            <Level>
+              <ID>Month</ID>
+              <Name>Month</Name>
+              <SourceAttributeID>Month</SourceAttributeID>
             </Level>
             <Level>
               <ID>Date</ID>
