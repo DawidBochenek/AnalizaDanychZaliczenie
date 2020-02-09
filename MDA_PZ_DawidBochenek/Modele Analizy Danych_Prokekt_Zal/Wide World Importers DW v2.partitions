@@ -1,17 +1,17 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f1acf147-bc12-4a25-b56e-87423b365103" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="085df5fc-439c-4cf1-8b2a-16e4b0ef562c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Wide World Importers DW v2</ID>
   <MeasureGroups>
     <MeasureGroup>
       <ID>City</ID>
       <Partitions>
-        <Partition dwd:design-time-name="2a011919-ff0a-4fff-8add-7d14a8bf0845">
+        <Partition dwd:design-time-name="abf045bd-e250-45bb-b959-550ff94953fc">
           <ID>City</ID>
           <Name>City</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="88a3d5dc-9cd9-443e-9d6a-336ca4d1084e">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="1524f50f-ebeb-4564-8428-92d6b065df4f">
             <DataSourceViewID>Wide World Importers DW</DataSourceViewID>
             <TableID>Dimension_City</TableID>
           </Source>
@@ -24,14 +24,14 @@
     <MeasureGroup>
       <ID>Date</ID>
       <Partitions>
-        <Partition dwd:design-time-name="938c7248-0bc1-45e7-9c72-90455f06b39c">
+        <Partition dwd:design-time-name="9df8176f-6e5e-4f70-b961-bad951fec306">
           <ID>Date</ID>
           <Name>Date</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a6c7abb6-865a-4225-b0da-b1623d300f71">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ae6d51b9-736e-4faa-b461-a779c4214c9c">
             <DataSourceViewID>Wide World Importers DW</DataSourceViewID>
             <TableID>Dimension_Date</TableID>
           </Source>
@@ -44,14 +44,14 @@
     <MeasureGroup>
       <ID>Customer</ID>
       <Partitions>
-        <Partition dwd:design-time-name="54a665ad-4fa4-4442-8f55-73070bc7dca2">
+        <Partition dwd:design-time-name="4c9f0891-638c-4870-a300-2c6a2b5c968e">
           <ID>Customer</ID>
           <Name>Customer</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="bbb27d2b-23d5-41f6-81d3-647cc551cbe3">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="75072cfd-800f-41f6-b133-9277209faf47">
             <DataSourceViewID>Wide World Importers DW</DataSourceViewID>
             <TableID>Dimension_Customer</TableID>
           </Source>
@@ -62,36 +62,16 @@
       </Partitions>
     </MeasureGroup>
     <MeasureGroup>
-      <ID>Employee</ID>
-      <Partitions>
-        <Partition dwd:design-time-name="877a314d-d344-41c8-8f2e-14b761bcaeb8">
-          <ID>Employee</ID>
-          <Name>Employee</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-          <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="f995537f-70a7-424f-a300-cf5c152a6fd6">
-            <DataSourceViewID>Wide World Importers DW</DataSourceViewID>
-            <TableID>Dimension_Employee</TableID>
-          </Source>
-          <StorageMode>Molap</StorageMode>
-          <CurrentStorageMode>Molap</CurrentStorageMode>
-          <ProcessingMode>Regular</ProcessingMode>
-        </Partition>
-      </Partitions>
-    </MeasureGroup>
-    <MeasureGroup>
       <ID>Payment Method</ID>
       <Partitions>
-        <Partition dwd:design-time-name="19097b46-1104-46dc-880c-55058032b2cb">
+        <Partition dwd:design-time-name="ff70ccbb-a28f-4acf-961e-78f7ab681568">
           <ID>Payment Method</ID>
           <Name>Payment Method</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ec068881-1856-46af-a47f-00d8c32525f8">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="c0f7c4bd-196f-42c3-b1d6-6630946e16ef">
             <DataSourceViewID>Wide World Importers DW</DataSourceViewID>
             <TableID>Dimension_Payment_x0020_Method</TableID>
           </Source>
@@ -104,14 +84,14 @@
     <MeasureGroup>
       <ID>Supplier</ID>
       <Partitions>
-        <Partition dwd:design-time-name="a008bd98-9368-4b9d-89ab-3a11df5d4cd2">
+        <Partition dwd:design-time-name="7c0fd856-dd82-4438-829b-09b7650af304">
           <ID>Supplier</ID>
           <Name>Supplier</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="bdbbe53d-8c6d-4c22-bd63-60861d1a2a99">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="9039da77-323f-4c2e-9a51-f775fe9031df">
             <DataSourceViewID>Wide World Importers DW</DataSourceViewID>
             <TableID>Dimension_Supplier</TableID>
           </Source>
@@ -124,14 +104,14 @@
     <MeasureGroup>
       <ID>Transaction Type</ID>
       <Partitions>
-        <Partition dwd:design-time-name="e3accc42-fa14-4cc5-846a-cd0f393ea29f">
+        <Partition dwd:design-time-name="2e7f609a-6f66-4540-9a8c-ec7e8081ad58">
           <ID>Transaction Type</ID>
           <Name>Transaction Type</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="cca7169d-fec5-4113-9f97-845f51bee68b">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="0eac6439-33fe-4028-a4cc-68664656fb0c">
             <DataSourceViewID>Wide World Importers DW</DataSourceViewID>
             <TableID>Dimension_Transaction_x0020_Type</TableID>
           </Source>
@@ -144,14 +124,14 @@
     <MeasureGroup>
       <ID>Purchase</ID>
       <Partitions>
-        <Partition dwd:design-time-name="12263abf-f044-4f53-8fe0-2ec23f694488">
+        <Partition dwd:design-time-name="df06ddd3-9896-4ab3-8ef7-91bf0c5926c7">
           <ID>Purchase</ID>
           <Name>Purchase</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="878e8b02-dfd4-438d-aefa-4177264549b4">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="c61de7bd-930c-4be4-9515-63c55deb6ef9">
             <DataSourceViewID>Wide World Importers DW</DataSourceViewID>
             <TableID>Fact_Purchase</TableID>
           </Source>
@@ -164,14 +144,14 @@
     <MeasureGroup>
       <ID>Sale</ID>
       <Partitions>
-        <Partition dwd:design-time-name="a8e30a7d-6f96-4433-a45e-8f39e3089868">
+        <Partition dwd:design-time-name="1d37b11c-70bb-40ca-8454-73c689523dee">
           <ID>Sale</ID>
           <Name>Sale</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="e37c0a8f-0196-4208-a35d-df71590e55c6">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="5664d8f2-e48d-4d1e-be5c-875ca799fe87">
             <DataSourceViewID>Wide World Importers DW</DataSourceViewID>
             <TableID>Fact_Sale</TableID>
           </Source>
@@ -184,14 +164,14 @@
     <MeasureGroup>
       <ID>Transaction</ID>
       <Partitions>
-        <Partition dwd:design-time-name="aaa879ff-5b73-4a40-95ad-41f251b10a72">
+        <Partition dwd:design-time-name="8cb2f044-6af5-468c-9af8-3dd6623f5aef">
           <ID>Transaction</ID>
           <Name>Transaction</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="bb50e64c-450a-41ad-94f3-9d171b7a3158">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="2d31ec4e-5111-4c10-8fc4-9011501d8cb5">
             <DataSourceViewID>Wide World Importers DW</DataSourceViewID>
             <TableID>Fact_Transaction</TableID>
           </Source>
