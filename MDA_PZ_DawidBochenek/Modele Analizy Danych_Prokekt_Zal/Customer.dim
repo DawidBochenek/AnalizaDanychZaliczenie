@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c47add1f-f71a-4a18-857b-093bfcbb6c5b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="3db95e6a-d7b2-4231-b028-df9837fed453" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Customer</ID>
   <Name>Customer</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -42,26 +42,26 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="3a112f82-670b-4ede-8e1f-88c6e47ca0c3">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="e2a0e049-a5b7-4d67-b469-41ee96f0d4a8">
     <DataSourceViewID>Wide World Importers DW</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="0184d160-078d-4882-ab8c-66cd2467e41b">
+  <ErrorConfiguration dwd:design-time-name="69d08101-a533-42c7-a776-f3e415feeeb8">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="0cc028c3-808e-42a7-aa66-1692b05c5e8d">
+    <Attribute dwd:design-time-name="669db9ab-bb7b-460d-8fa1-7ed193f69247">
       <ID>Customer Key</ID>
       <Name>Customer Key</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="55e64a12-b004-4209-92d4-062968a1c6fa">
+        <KeyColumn dwd:design-time-name="89f02e40-5337-43b3-bd37-90b499336eb5">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="d4822d4d-5231-4823-ab44-13e3da10347b">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="62ad0e19-7355-4f00-947c-0a2fe48d5fda">
             <TableID>Dimension_Customer</TableID>
             <ColumnID>Customer_x0020_Key</ColumnID>
           </Source>

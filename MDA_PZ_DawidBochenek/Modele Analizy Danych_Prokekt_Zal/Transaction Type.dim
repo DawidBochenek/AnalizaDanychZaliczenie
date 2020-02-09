@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="44668bad-2925-4874-bcc7-ce418af67339" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="d0cae405-63a3-4a00-bde5-24e440bbe2b0" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Transaction Type</ID>
   <Name>Transaction Type</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -42,24 +42,24 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="c452a741-c068-4ef4-811e-7bebfc4392b2">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="3e6c356e-ccf5-4ab8-a3df-8981ba510fa4">
     <DataSourceViewID>Wide World Importers DW</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="b7ecd1c0-a9de-4f57-8c2d-abf8570c1be2">
+  <ErrorConfiguration dwd:design-time-name="d5e8896c-f14e-4c54-a810-bc9b24b5a571">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="1526fee6-5cf3-4bda-8974-cc3cf09b0d62">
+    <Attribute dwd:design-time-name="183e7b61-3117-4a88-92a3-01931f01e044">
       <ID>Transaction Type Key</ID>
       <Name>Transaction Type Key</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="c96b1d38-5309-4501-9b06-fa16e95162ab">
+        <KeyColumn dwd:design-time-name="0e8e6f8f-d96c-44bd-aad5-726522292f5e">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="19ec22d0-2d71-431d-ad33-7e84ed90b9bc">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="37c511fd-7c15-49b4-89be-2b482a382b78">
             <TableID>Dimension_Transaction_x0020_Type</TableID>
             <ColumnID>Transaction_x0020_Type_x0020_Key</ColumnID>
           </Source>

@@ -8,20 +8,20 @@
   </Database>
   <Cubes>
     <ProjectItem>
-      <Name>Wide World Importers DW v2.cube</Name>
-      <FullPath>Wide World Importers DW v2.cube</FullPath>
+      <Name>Wide World Importers DW.cube</Name>
+      <FullPath>Wide World Importers DW.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>Wide World Importers DW v2.partitions</Name>
-          <FullPath>Wide World Importers DW v2.partitions</FullPath>
+          <Name>Wide World Importers DW.partitions</Name>
+          <FullPath>Wide World Importers DW.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
   </Cubes>
   <Dimensions>
     <ProjectItem>
-      <Name>City.dim</Name>
-      <FullPath>City.dim</FullPath>
+      <Name>Transaction Type.dim</Name>
+      <FullPath>Transaction Type.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Date.dim</Name>
@@ -32,24 +32,24 @@
       <FullPath>Customer.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Employee.dim</Name>
-      <FullPath>Employee.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Payment Method.dim</Name>
-      <FullPath>Payment Method.dim</FullPath>
+      <Name>Stock Item.dim</Name>
+      <FullPath>Stock Item.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Supplier.dim</Name>
       <FullPath>Supplier.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Transaction Type.dim</Name>
-      <FullPath>Transaction Type.dim</FullPath>
+      <Name>Employee.dim</Name>
+      <FullPath>Employee.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Stock Item.dim</Name>
-      <FullPath>Stock Item.dim</FullPath>
+      <Name>City.dim</Name>
+      <FullPath>City.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Order.dim</Name>
+      <FullPath>Order.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Purchase.dim</Name>
@@ -58,6 +58,14 @@
     <ProjectItem>
       <Name>Sale 1.dim</Name>
       <FullPath>Sale 1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Stock Holding.dim</Name>
+      <FullPath>Stock Holding.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Payment Method.dim</Name>
+      <FullPath>Payment Method.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Transaction.dim</Name>

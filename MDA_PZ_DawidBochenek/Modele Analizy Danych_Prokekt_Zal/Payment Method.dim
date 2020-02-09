@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="eb14fed6-963e-469c-9ca8-bce717ad9d55" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e2566b33-87a3-4377-b66f-d0ec32587c3a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Payment Method</ID>
   <Name>Payment Method</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -42,26 +42,26 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="815d058e-1325-475a-8286-a3724391d742">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="8913f424-dd10-44c8-a5b0-2d1c81d48d66">
     <DataSourceViewID>Wide World Importers DW</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="3da19860-c52e-4af6-a3e5-3f37f56bfdc6">
+  <ErrorConfiguration dwd:design-time-name="09b68e85-46f1-41f8-8757-0a3e5d311511">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="1ea1eef9-ffb3-4d69-b50e-23fec9306ba3">
+    <Attribute dwd:design-time-name="89a67265-d086-4cd6-a5fe-8b8ea4aa6add">
       <ID>Payment Method Key</ID>
       <Name>Payment Method Key</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="eae3e38a-18ed-49dd-8711-035eb20336c0">
+        <KeyColumn dwd:design-time-name="068ad5e4-2004-4701-898e-39c7dfe1fbe5">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="27b8af63-222a-4c7f-8216-516786435f63">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="682f24d9-b90c-435c-b6e7-50eb01811af5">
             <TableID>Dimension_Payment_x0020_Method</TableID>
             <ColumnID>Payment_x0020_Method_x0020_Key</ColumnID>
           </Source>

@@ -13,7 +13,7 @@
     </DataSources>
     <Dimensions>
       <Dimension>
-        <ID>City</ID>
+        <ID>Transaction Type</ID>
       </Dimension>
       <Dimension>
         <ID>Date</ID>
@@ -22,19 +22,19 @@
         <ID>Customer</ID>
       </Dimension>
       <Dimension>
-        <ID>Employee</ID>
-      </Dimension>
-      <Dimension>
-        <ID>Payment Method</ID>
+        <ID>Stock Item</ID>
       </Dimension>
       <Dimension>
         <ID>Supplier</ID>
       </Dimension>
       <Dimension>
-        <ID>Transaction Type</ID>
+        <ID>Employee</ID>
       </Dimension>
       <Dimension>
-        <ID>Stock Item</ID>
+        <ID>City</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Order</ID>
       </Dimension>
       <Dimension>
         <ID>Purchase</ID>
@@ -43,50 +43,32 @@
         <ID>Sale</ID>
       </Dimension>
       <Dimension>
+        <ID>Stock Holding</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Payment Method</ID>
+      </Dimension>
+      <Dimension>
         <ID>Transaction</ID>
       </Dimension>
     </Dimensions>
     <Cubes>
       <Cube>
-        <ID>Wide World Importers DW v2</ID>
+        <ID>Wide World Importers DW</ID>
         <MeasureGroups>
           <MeasureGroup>
-            <ID>City</ID>
+            <ID>Movement</ID>
             <Partitions>
               <Partition>
-                <ID>City</ID>
+                <ID>Movement</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>
           <MeasureGroup>
-            <ID>Date</ID>
+            <ID>Order</ID>
             <Partitions>
               <Partition>
-                <ID>Date</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
-            <ID>Customer</ID>
-            <Partitions>
-              <Partition>
-                <ID>Customer</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
-            <ID>Payment Method</ID>
-            <Partitions>
-              <Partition>
-                <ID>Payment Method</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
-            <ID>Transaction Type</ID>
-            <Partitions>
-              <Partition>
-                <ID>Transaction Type</ID>
+                <ID>Order</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>
@@ -107,18 +89,18 @@
             </Partitions>
           </MeasureGroup>
           <MeasureGroup>
-            <ID>Transaction</ID>
+            <ID>Stock Holding</ID>
             <Partitions>
               <Partition>
-                <ID>Transaction</ID>
+                <ID>Stock Holding</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>
           <MeasureGroup>
-            <ID>Stock Item</ID>
+            <ID>Transaction</ID>
             <Partitions>
               <Partition>
-                <ID>Stock Item</ID>
+                <ID>Transaction</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>
