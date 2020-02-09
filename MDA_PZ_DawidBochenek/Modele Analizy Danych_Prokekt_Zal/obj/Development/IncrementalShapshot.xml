@@ -124,14 +124,14 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>MjFWg8H7KrJtZWnzZNcAqoyDTbQ=09.02.2020 19:10:2209.02.2020 18:38:02</TimeStamp>
+        <TimeStamp>XRuK+wrC7JBcG9OXkKpM1uTQeM0=09.02.2020 19:21:5409.02.2020 18:38:02</TimeStamp>
         <ID>
           <String>DataZmiana</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>l7gSixRNFJelm/vMZ5kxfDV7DJw=09.02.2020 18:28:2209.02.2020 14:49:54hdaHm7iHXraEAh0n9P8OBdjuIzg=09.02.2020 16:17:0809.02.2020 14:49:54</TimeStamp>
+        <TimeStamp>PDYLToNalzx7unnwBv96wdS4JGI=09.02.2020 19:26:4609.02.2020 14:49:54hdaHm7iHXraEAh0n9P8OBdjuIzg=09.02.2020 16:17:0809.02.2020 14:49:54</TimeStamp>
         <ID>
           <String>Wide World Importers DW</String>
         </ID>
@@ -148,5 +148,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2020-02-09T18:10:24.576667Z</LastDeployed>
+  <LastDeployed>2020-02-09T18:29:41.773333Z</LastDeployed>
 </DeploymentSnapshot>

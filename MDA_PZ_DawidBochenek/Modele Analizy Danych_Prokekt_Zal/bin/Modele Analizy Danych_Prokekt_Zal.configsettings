@@ -19,6 +19,9 @@
         <ID>Date</ID>
       </Dimension>
       <Dimension>
+        <ID>Customer</ID>
+      </Dimension>
+      <Dimension>
         <ID>Stock Item</ID>
       </Dimension>
       <Dimension>
@@ -47,9 +50,6 @@
       </Dimension>
       <Dimension>
         <ID>Transaction</ID>
-      </Dimension>
-      <Dimension>
-        <ID>Customer</ID>
       </Dimension>
       <Dimension>
         <ID>DataZmiana</ID>
