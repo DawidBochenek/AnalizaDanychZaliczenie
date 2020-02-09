@@ -809,6 +809,12 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
+  <Translations>
+    <Translation dwd:design-time-name="f50016ad-4a31-4ac3-8258-002c63ebb78c">
+      <Language>1045</Language>
+      <Caption>Kostka Analityczna WWIDW</Caption>
+    </Translation>
+  </Translations>
   <Dimensions>
     <Dimension dwd:design-time-name="8c20cf7a-10bf-46a1-9a8a-740018e7aab9">
       <ID>Transaction Type</ID>
@@ -1217,6 +1223,12 @@
               <ColumnID>Quantity</ColumnID>
             </Source>
           </Source>
+          <Translations>
+            <Translation dwd:design-time-name="adcabee8-beae-4d0f-b07e-534f914d950f">
+              <Language>1045</Language>
+              <Caption>Ilość</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="94ca337e-58ee-41af-a508-5be1de5d5f6a">
           <ID>Lineage Key</ID>
@@ -1391,6 +1403,12 @@
               <ColumnID>Unit_x0020_Price</ColumnID>
             </Source>
           </Source>
+          <Translations>
+            <Translation dwd:design-time-name="542afe76-b228-424e-86b5-4d31d360737c">
+              <Language>1045</Language>
+              <Caption>Cena jednostkowa</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="9ffd2852-232d-4c25-9a36-520bb6e6bd6b">
           <ID>Tax Rate</ID>
@@ -1402,6 +1420,12 @@
               <ColumnID>Tax_x0020_Rate</ColumnID>
             </Source>
           </Source>
+          <Translations>
+            <Translation dwd:design-time-name="a3ab6573-4396-40cc-8a8f-18438ac01019">
+              <Language>1045</Language>
+              <Caption>Stawka podatku</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="d933be7c-a8a9-47c8-9057-876ce7feca30">
           <ID>Total Excluding Tax</ID>
@@ -1424,6 +1448,12 @@
               <ColumnID>Tax_x0020_Amount</ColumnID>
             </Source>
           </Source>
+          <Translations>
+            <Translation dwd:design-time-name="92da67b1-6f30-47fb-807c-df95ed204471">
+              <Language>1045</Language>
+              <Caption>Kwota podatlu</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="d9896796-f0c5-47bd-8ba5-2ef4775e1b20">
           <ID>Total Including Tax</ID>
@@ -1659,6 +1689,12 @@
               <ColumnID>Ordered_x0020_Quantity</ColumnID>
             </Source>
           </Source>
+          <Translations>
+            <Translation dwd:design-time-name="a7d237c0-a325-4b2a-a9ea-ec34f6e7c277">
+              <Language>1045</Language>
+              <Caption>Wielkość zamówienia</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="036f1dfb-3ec0-42a4-aac4-9c53dbd222d9">
           <ID>Received Outers</ID>
