@@ -441,7 +441,15 @@
         <Attribute dwd:design-time-name="56657235-b0e8-4426-8e3d-e72ad5dface2">
           <AttributeID>Customer Key</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="a5985e17-9fab-48db-a93a-bd51908a4f2a">
+          <AttributeID>Category</AttributeID>
+        </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="fed4a479-9108-48f0-abd9-e5155c035203">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="566a6da9-2c54-4585-8acb-6007f86cb21b">
       <ID>City</ID>
@@ -461,7 +469,15 @@
         <Attribute dwd:design-time-name="2c45a0f0-ffbb-41d3-942f-c1c7b5cb5660">
           <AttributeID>Customer Key</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="0121a712-738d-48ce-9801-8c481be3c684">
+          <AttributeID>Category</AttributeID>
+        </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="dbcebbff-c1de-4e63-a364-43abee332dcc">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="94a2bd70-49f6-4eac-a3c2-2c275bef94a3">
       <ID>Employee</ID>
