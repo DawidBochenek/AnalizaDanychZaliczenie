@@ -61,7 +61,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>nUSk8jk2njILDFYhWUVx2l3Etuk=09.02.2020 20:22:0909.02.2020 19:45:57</TimeStamp>
+        <TimeStamp>WgSbBpONcfW+en1sIdkYuyZDnEo=10.02.2020 18:55:5909.02.2020 19:45:57</TimeStamp>
         <ID>
           <String>City</String>
         </ID>
@@ -82,14 +82,14 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>HFSYGO0rWYYP1tJpltGhqH9f1b4=10.02.2020 18:29:4109.02.2020 20:34:48</TimeStamp>
+        <TimeStamp>VadUdhqxLVLlmePsxbov1I1OkdQ=10.02.2020 18:50:0909.02.2020 20:34:48</TimeStamp>
         <ID>
           <String>Transaction</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>20YipLv5mefRvC7mqaf8vhzhQl8=10.02.2020 18:44:5109.02.2020 19:45:56FOeFuAWlkrbRVJImKvQx/Iq6vgM=10.02.2020 18:31:2009.02.2020 19:45:56</TimeStamp>
+        <TimeStamp>dia0pH5zsnx3YkFkDUvp5IyAW3A=10.02.2020 18:55:5909.02.2020 19:45:56KLqtV+E6/jEvg9NwYlNO/j3omaw=10.02.2020 18:52:1109.02.2020 19:45:56</TimeStamp>
         <ID>
           <String>Wide World Importers DW</String>
         </ID>
@@ -106,5 +106,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2020-02-10T17:44:51.61Z</LastDeployed>
+  <LastDeployed>2020-02-10T17:56:01.616667Z</LastDeployed>
 </DeploymentSnapshot>

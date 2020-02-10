@@ -65,6 +65,14 @@
               </Partition>
             </Partitions>
           </MeasureGroup>
+          <MeasureGroup>
+            <ID>Transaction 1</ID>
+            <Partitions>
+              <Partition>
+                <ID>Transaction</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
         </MeasureGroups>
       </Cube>
     </Cubes>

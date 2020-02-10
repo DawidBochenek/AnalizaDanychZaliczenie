@@ -459,7 +459,21 @@
         <Attribute dwd:design-time-name="4aa165c6-d7be-4144-abec-df77d9bffcfc">
           <AttributeID>City Key</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="24c04416-5e33-405f-928a-6854be5eefc5">
+          <AttributeID>State Province</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a833e725-ea5d-4f30-aca3-fbb617c74c58">
+          <AttributeID>Country</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="acbb300b-9d8b-4d82-9379-a38accd1d275">
+          <AttributeID>Continent</AttributeID>
+        </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="0bc87f77-c380-4a78-8645-64e99f265efd">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="1954215d-44f3-4434-8c11-0b97e0d0f505">
       <ID>Bill To Customer</ID>
@@ -1036,6 +1050,90 @@
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
                   <Source xsi:type="ColumnBinding" dwd:design-time-name="2c7cee85-8864-44b5-8940-1db929b2f468">
+                    <TableID>Fact_Transaction</TableID>
+                    <ColumnID>Customer_x0020_Key</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="9891f258-1865-4b37-bbb4-3397f2bd39bc">
+      <ID>Transaction 1</ID>
+      <Name>Transaction 1</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="65edba29-f461-46be-8a28-8754e9182970">
+          <ID>Payment Method Key Distinct Count</ID>
+          <Name>Payment Method Key Distinct Count</Name>
+          <AggregateFunction>DistinctCount</AggregateFunction>
+          <DataType>Integer</DataType>
+          <Source dwd:design-time-name="585ac3c4-5151-4122-b730-0b317de5ba5e">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="206eae71-0617-46ff-b4b6-a2acd8cd880c">
+              <TableID>Fact_Transaction</TableID>
+              <ColumnID>Payment_x0020_Method_x0020_Key</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c20c0299-d855-43b8-b57a-3ba96f83768b">
+          <CubeDimensionID>Bill To Customer</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="6c4bfef7-d896-49e1-9be3-c1b3cb1927da">
+              <AttributeID>Customer Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f7512be7-9fa9-4dce-b6c4-683a1f774c70">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f2eba67d-e39a-47d6-8a41-6d476b57d812">
+                    <TableID>Fact_Transaction</TableID>
+                    <ColumnID>Bill_x0020_To_x0020_Customer_x0020_Key</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="cf7833b1-62d5-4229-bdf5-16c8421c3894">
+          <CubeDimensionID>Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="0b40a87a-e556-4a82-9786-e1e20122cb07">
+              <AttributeID>Date</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="82c24572-c44a-4e89-8597-82cb96864017">
+                  <DataType>Date</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="bd22a205-2601-4a61-bcde-36a27f404a7a">
+                    <TableID>Fact_Transaction</TableID>
+                    <ColumnID>Date_x0020_Key</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="154c221a-b93c-4346-bdad-94c2376392fd">
+          <CubeDimensionID>Customer</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="937cfc57-ac1a-42be-bf6a-0e27d970a856">
+              <AttributeID>Customer Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="fd50aee0-120b-4444-849c-f8a546955c32">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3f9fdd84-e7c9-43e0-806b-24e71bffa68f">
                     <TableID>Fact_Transaction</TableID>
                     <ColumnID>Customer_x0020_Key</ColumnID>
                   </Source>
