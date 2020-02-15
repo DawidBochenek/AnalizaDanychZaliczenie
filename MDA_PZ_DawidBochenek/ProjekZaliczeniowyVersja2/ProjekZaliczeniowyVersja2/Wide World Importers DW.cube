@@ -515,7 +515,21 @@
         <Attribute dwd:design-time-name="0afa5e54-3118-4790-b491-65ab95bc5dd9">
           <AttributeID>Employee Key</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="2a46ddb6-14c5-4818-adf0-7f626594a198">
+          <AttributeID>Is Salesperson</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e5d079d9-ebbf-42a8-9bfc-31ecb4a89876">
+          <AttributeID>Valid From</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9a62e579-4144-4a76-bb0d-c6e37568dde1">
+          <AttributeID>Valid To</AttributeID>
+        </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="82485717-a6a2-4561-a920-2c220ebe40a8">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="b34042da-e25b-441b-be6f-55ffad840217">
       <ID>Date</ID>

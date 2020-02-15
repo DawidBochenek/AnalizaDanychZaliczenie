@@ -47,7 +47,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>ZEnR/LHnNU6geTVfTcr7L9SJnjY=15.02.2020 11:39:4015.02.2020 11:39:40</TimeStamp>
+        <TimeStamp>Dr79OBMYLq510f+FNOfeyHavhEU=15.02.2020 20:36:2415.02.2020 11:39:40</TimeStamp>
         <ID>
           <String>Employee</String>
         </ID>
@@ -68,14 +68,14 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>i1Olsj1jXbttA+9cUNDGEYbuneE=15.02.2020 11:39:4015.02.2020 11:39:40</TimeStamp>
+        <TimeStamp>BXYlR0Gvi7kcvCv5BhFvSc5B1l0=15.02.2020 20:37:2015.02.2020 11:39:40</TimeStamp>
         <ID>
           <String>Sale</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>H3r1CMjir0CvSXtSsPmog5UiW2Q=15.02.2020 11:39:4015.02.2020 11:39:40</TimeStamp>
+        <TimeStamp>11U9cUaYFM2bhi47XNO/EbVNmD4=15.02.2020 20:40:2815.02.2020 11:39:40</TimeStamp>
         <ID>
           <String>Movement</String>
         </ID>
@@ -89,14 +89,14 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>Se+B8BZ2MO1UmswrvUL8U2/KohA=15.02.2020 20:29:3615.02.2020 20:25:23</TimeStamp>
+        <TimeStamp>jbHiiiR+kITGldIin+5+Jx4bB+c=15.02.2020 20:34:3015.02.2020 20:25:23</TimeStamp>
         <ID>
           <String>Stock Holding</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>OHIDF7JbRklVRlR3xP6MH6wEpZU=15.02.2020 20:23:4115.02.2020 11:39:40KLqtV+E6/jEvg9NwYlNO/j3omaw=15.02.2020 11:39:4015.02.2020 11:39:40</TimeStamp>
+        <TimeStamp>GNNmps+LKevdSWbWaNnHJv1tmFQ=15.02.2020 20:36:2415.02.2020 11:39:40KLqtV+E6/jEvg9NwYlNO/j3omaw=15.02.2020 11:39:4015.02.2020 11:39:40</TimeStamp>
         <ID>
           <String>Wide World Importers DW</String>
         </ID>
@@ -113,5 +113,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2020-02-15T19:29:39.906667Z</LastDeployed>
+  <LastDeployed>2020-02-15T19:40:31.49Z</LastDeployed>
 </DeploymentSnapshot>
