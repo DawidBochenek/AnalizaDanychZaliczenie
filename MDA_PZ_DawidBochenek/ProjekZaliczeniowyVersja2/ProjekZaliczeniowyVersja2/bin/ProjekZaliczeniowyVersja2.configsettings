@@ -36,6 +36,9 @@
       <Dimension>
         <ID>Transaction</ID>
       </Dimension>
+      <Dimension>
+        <ID>Stock Holding</ID>
+      </Dimension>
     </Dimensions>
     <Cubes>
       <Cube>
