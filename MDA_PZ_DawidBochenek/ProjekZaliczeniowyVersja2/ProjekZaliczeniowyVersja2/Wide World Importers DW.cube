@@ -326,10 +326,22 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
+  <Translations>
+    <Translation dwd:design-time-name="0e5be8b9-3ed2-4749-a5f5-e8d04e0538e6">
+      <Language>1045</Language>
+      <Caption>Kostka OLAP</Caption>
+    </Translation>
+  </Translations>
   <Dimensions>
     <Dimension dwd:design-time-name="1d7e901f-4b09-4ccd-a289-1c01a76bca3e">
       <ID>Sale</ID>
       <Name>Sale</Name>
+      <Translations>
+        <Translation dwd:design-time-name="9c8fd7f4-208d-4dcf-8244-aa08932973fc">
+          <Language>1045</Language>
+          <Caption>Wymiar Sprzedaż</Caption>
+        </Translation>
+      </Translations>
       <DimensionID>Sale</DimensionID>
       <Attributes>
         <Attribute dwd:design-time-name="1abb2b07-2a1a-4fea-8094-1c591f4c9ad2">
@@ -570,6 +582,12 @@
       <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
+      <Translations>
+        <Translation dwd:design-time-name="b85912c6-db3d-4e25-b831-c24c79cc9807">
+          <Language>1045</Language>
+          <Caption>Sprzedaż</Caption>
+        </Translation>
+      </Translations>
       <Measures>
         <Measure dwd:design-time-name="bb4f3816-90e7-4817-966e-215ad0211a1d">
           <ID>WWI Invoice ID - Sale</ID>
@@ -592,6 +610,12 @@
               <ColumnID>Quantity</ColumnID>
             </Source>
           </Source>
+          <Translations>
+            <Translation dwd:design-time-name="f7ad331c-2098-41fe-b92f-0355425e3fb2">
+              <Language>1045</Language>
+              <Caption>Ilość</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="22e30cb3-a639-449e-a486-ec81b5039983">
           <ID>Unit Price - Sale</ID>
@@ -603,6 +627,12 @@
               <ColumnID>Unit_x0020_Price</ColumnID>
             </Source>
           </Source>
+          <Translations>
+            <Translation dwd:design-time-name="f7044de6-0793-4b75-83a1-a5840cf6fdf5">
+              <Language>1045</Language>
+              <Caption>Cena jednostkowa</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="a12c1067-bccf-4095-b102-7ba2483934ba">
           <ID>Tax Rate - Sale</ID>
@@ -625,6 +655,12 @@
               <ColumnID>Total_x0020_Excluding_x0020_Tax</ColumnID>
             </Source>
           </Source>
+          <Translations>
+            <Translation dwd:design-time-name="9a789e79-348b-4570-8d69-34267a055d84">
+              <Language>1045</Language>
+              <Caption>Wszystko z wyłaczeniem podatku</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="2ae1f329-b79c-4492-ad42-a49c6108ee05">
           <ID>Tax Amount - Sale</ID>
@@ -647,6 +683,12 @@
               <ColumnID>Profit</ColumnID>
             </Source>
           </Source>
+          <Translations>
+            <Translation dwd:design-time-name="e50acad7-42f0-479d-b064-4d0879d60d29">
+              <Language>1045</Language>
+              <Caption>Zysk</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="0d9a6af0-84e2-44e3-bf7e-16cc73c0ed38">
           <ID>Total Including Tax - Sale</ID>
@@ -870,6 +912,12 @@
       <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
+      <Translations>
+        <Translation dwd:design-time-name="91ff6940-f16c-49a8-9139-16e125af0cdb">
+          <Language>1045</Language>
+          <Caption>Przedmiot</Caption>
+        </Translation>
+      </Translations>
       <Measures>
         <Measure dwd:design-time-name="61ccea19-9258-4ac7-b12f-4cc26cef1de3">
           <ID>WWI Stock Item ID</ID>
