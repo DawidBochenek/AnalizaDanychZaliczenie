@@ -95,8 +95,15 @@
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>QKWN5wmPO8QhAr2tcrLMkC19Qhg=15.02.2020 20:48:2815.02.2020 20:48:28</TimeStamp>
+        <ID>
+          <String>Purchase</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>GNNmps+LKevdSWbWaNnHJv1tmFQ=15.02.2020 20:36:2415.02.2020 11:39:40KLqtV+E6/jEvg9NwYlNO/j3omaw=15.02.2020 11:39:4015.02.2020 11:39:40</TimeStamp>
+        <TimeStamp>gZxZTzzXAi0qWA2+bshX9HM7IGA=15.02.2020 20:52:5615.02.2020 11:39:40KKiPR18iPfN3StsTGpt5+TrQA0U=15.02.2020 20:52:5615.02.2020 11:39:40</TimeStamp>
         <ID>
           <String>Wide World Importers DW</String>
         </ID>
@@ -113,5 +120,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2020-02-15T19:40:31.49Z</LastDeployed>
+  <LastDeployed>2020-02-15T19:53:32.553333Z</LastDeployed>
 </DeploymentSnapshot>

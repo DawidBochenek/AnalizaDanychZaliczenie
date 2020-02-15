@@ -39,6 +39,9 @@
       <Dimension>
         <ID>Stock Holding</ID>
       </Dimension>
+      <Dimension>
+        <ID>Purchase</ID>
+      </Dimension>
     </Dimensions>
     <Cubes>
       <Cube>
@@ -73,6 +76,22 @@
             <Partitions>
               <Partition>
                 <ID>Transaction</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Stock Holding 1</ID>
+            <Partitions>
+              <Partition>
+                <ID>Stock Holding</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Stock Holding</ID>
+            <Partitions>
+              <Partition>
+                <ID>Stock Holding</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>

@@ -55,6 +55,10 @@
       <Name>Stock Holding.dim</Name>
       <FullPath>Stock Holding.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Purchase.dim</Name>
+      <FullPath>Purchase.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
