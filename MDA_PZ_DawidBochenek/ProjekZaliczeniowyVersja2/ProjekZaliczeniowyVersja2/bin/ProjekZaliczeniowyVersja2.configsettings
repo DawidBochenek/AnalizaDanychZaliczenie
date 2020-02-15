@@ -3,10 +3,10 @@
     <DataSources>
       <DataSource>
         <ID>Wide World Importers DW</ID>
-        <ConnectionString>Provider=SQLNCLI11.1;Data Source=DESKTOP-NBQ2S6L;Integrated Security=SSPI;Initial Catalog=WideWorldImportersDW</ConnectionString>
+        <ConnectionString>Provider=SQLNCLI11.1;Data Source=USER-KOMPUTER;Integrated Security=SSPI;Initial Catalog=WideWorldImportersDW</ConnectionString>
         <ImpersonationInfo>
           <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">ImpersonateAccount</ImpersonationMode>
-          <Account xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Dawid</Account>
+          <Account xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">User</Account>
           <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">PasswordRemoved</ImpersonationInfoSecurity>
         </ImpersonationInfo>
       </DataSource>

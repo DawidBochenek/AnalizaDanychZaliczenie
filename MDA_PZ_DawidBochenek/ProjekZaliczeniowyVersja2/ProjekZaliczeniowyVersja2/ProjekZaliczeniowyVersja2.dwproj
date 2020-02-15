@@ -72,7 +72,7 @@
           <ConfigurationSetting>
             <Id>Wide World Importers DW</Id>
             <Name>Wide World Importers DW</Name>
-            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=DESKTOP-NBQ2S6L;Integrated Security=SSPI;Initial Catalog=WideWorldImportersDW</Value>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=USER-KOMPUTER;Integrated Security=SSPI;Initial Catalog=WideWorldImportersDW</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>
