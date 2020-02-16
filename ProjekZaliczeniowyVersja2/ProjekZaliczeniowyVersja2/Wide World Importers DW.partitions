@@ -161,5 +161,25 @@
         </Partition>
       </Partitions>
     </MeasureGroup>
+    <MeasureGroup>
+      <ID>Sale 3</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="ae51c709-b899-48f9-bb84-0ca6fb08add5">
+          <ID>Sale</ID>
+          <Name>Sale</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="df90c834-f4d7-467e-9bd9-66cdacf7892e">
+            <DataSourceViewID>Wide World Importers DW</DataSourceViewID>
+            <TableID>Fact_Sale</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
   </MeasureGroups>
 </Cube>
