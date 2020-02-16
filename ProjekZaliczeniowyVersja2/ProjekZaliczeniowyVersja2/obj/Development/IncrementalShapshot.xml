@@ -108,10 +108,24 @@
           <String>Wide World Importers DW</String>
         </ID>
       </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Role</Type>
+        <TimeStamp>NIv5bapU6sbK3rIBtZWwB6cYNVw=16.02.2020 09:52:3116.02.2020 09:47:42</TimeStamp>
+        <ID>
+          <String>Role</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Role</Type>
+        <TimeStamp>QTS9HWWNx09fm1HFrgOcaHA5rgs=16.02.2020 09:53:2916.02.2020 09:52:20</TimeStamp>
+        <ID>
+          <String>Role 1</String>
+        </ID>
+      </ObjectSnapshot>
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>dAcZR+bUjCNrK+GI3lOVZLhlSAw=15.02.2020 11:39:4016.02.2020 08:24:12</TimeStamp>
+      <TimeStamp>bSyGa0dqS53bE2yiNq/fG3YpIIk=16.02.2020 09:53:2116.02.2020 08:24:12</TimeStamp>
       <ID>
         <String>ProjekZaliczeniowyVersja2</String>
       </ID>
@@ -120,5 +134,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2020-02-16T08:46:06.86Z</LastDeployed>
+  <LastDeployed>2020-02-16T08:53:50.113333Z</LastDeployed>
 </DeploymentSnapshot>
