@@ -635,6 +635,586 @@
       </Hierarchies>
     </Dimension>
   </Dimensions>
+  <Perspectives>
+    <Perspective dwd:design-time-name="548b972a-96ed-4cf1-a191-140919555347">
+      <ID>Perspective</ID>
+      <Name>Sale</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Dimensions>
+        <Dimension dwd:design-time-name="4dc56797-e941-4c8a-8f3c-01de604728f0">
+          <CubeDimensionID>Sale</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="63b3605a-c69d-4c24-90bf-2d060255c255">
+              <AttributeID>Sale Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="5f155eb8-310f-4a5b-b942-171f381c0d2e">
+              <AttributeID>City Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="f8f38dbb-3eef-42bf-8d3c-433ca380fa75">
+              <AttributeID>Country</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="864eed02-5cd4-4f65-a40d-7d7ecc0f6fe2">
+              <AttributeID>Continent</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="10de3f24-8860-4129-a6f1-6e296841ed51">
+              <AttributeID>Stock Item Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="6d84c0ed-abc1-4f38-bb25-078175587b23">
+              <AttributeID>Color</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="91a53b4d-a864-4e4d-8efc-12bdd4986465">
+              <AttributeID>State Province</AttributeID>
+            </Attribute>
+          </Attributes>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="33c5b21a-da12-45ec-a17e-3092847b9ef1">
+              <HierarchyID>Hierarchy</HierarchyID>
+            </Hierarchy>
+            <Hierarchy dwd:design-time-name="880daf68-c0a3-44c6-bed5-c7ddef801093">
+              <HierarchyID>Hierarchy 1</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+        <Dimension dwd:design-time-name="98056df4-79a6-4ea5-a22d-846aeb51f3fc">
+          <CubeDimensionID>Delivery Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="0e01d027-0ca4-4526-9847-0ec35eb55761">
+              <AttributeID>Date</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="8e1e17c1-e63c-405b-8655-df2143b008f1">
+              <AttributeID>Fiscal Year Label</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="22c5da3c-68a6-4a41-831f-9e17150b5d70">
+              <AttributeID>Fiscal Month Label</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="751259fa-0e07-4d3c-8319-b20030fa0ac7">
+              <AttributeID>Calendar Year Label</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="d9bdfc74-bc5f-4ac7-967f-f300715c1135">
+              <AttributeID>Calendar Month Label</AttributeID>
+            </Attribute>
+          </Attributes>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="108b9a36-ac47-4520-a3a1-7f360906ce98">
+              <HierarchyID>Hierarchy</HierarchyID>
+            </Hierarchy>
+            <Hierarchy dwd:design-time-name="a76cec54-f1b5-4fbc-83be-73ab92500daf">
+              <HierarchyID>Hierarchy 1</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+        <Dimension dwd:design-time-name="7e191659-cce2-4bd6-beb1-6169470cf9e4">
+          <CubeDimensionID>Stock Item</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="5defeb58-d410-4682-a206-0ddc6ba8c248">
+              <AttributeID>Stock Item Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="c6b7b934-ce26-4f72-af8b-793b60b36571">
+              <AttributeID>Brand</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="30dadd7f-6fb9-47f8-9f4c-310f3c35f1cc">
+              <AttributeID>Color</AttributeID>
+            </Attribute>
+          </Attributes>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="908dea87-a4c2-4a62-8578-93e670190f38">
+              <HierarchyID>Hierarchy</HierarchyID>
+            </Hierarchy>
+            <Hierarchy dwd:design-time-name="cdb4d8ae-8083-42dd-97ae-9a0037ae6b84">
+              <HierarchyID>Hierarchy 1</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+        <Dimension dwd:design-time-name="2e40f499-4f65-401c-9d9f-dea25a41128c">
+          <CubeDimensionID>Invoice Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="89173a8a-8d09-4b9c-8ee2-ad44438a99e3">
+              <AttributeID>Date</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="4f8cf869-251c-4739-a9c2-5dbca085e4cf">
+              <AttributeID>Fiscal Year Label</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="fdd47fd4-9063-4b9a-b7d2-20ecc82a9a95">
+              <AttributeID>Fiscal Month Label</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="557dfda5-a6b6-47b3-a985-4e57c6203421">
+              <AttributeID>Calendar Year Label</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="838220e3-39f9-4419-aeb9-fa81ded0942d">
+              <AttributeID>Calendar Month Label</AttributeID>
+            </Attribute>
+          </Attributes>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="8f32b57b-0423-4fd8-920b-66597c956061">
+              <HierarchyID>Hierarchy</HierarchyID>
+            </Hierarchy>
+            <Hierarchy dwd:design-time-name="338b5b13-2d9f-4f51-b576-9298e20656f9">
+              <HierarchyID>Hierarchy 1</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+        <Dimension dwd:design-time-name="19351778-1ebc-440d-af3d-364688923f80">
+          <CubeDimensionID>Customer</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="74acb0e8-25b4-49d7-992d-5f026d33253b">
+              <AttributeID>Customer Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="ca0fb3da-2e1e-4790-b0f3-3b1209faa62f">
+              <AttributeID>Category</AttributeID>
+            </Attribute>
+          </Attributes>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="9f297db2-1486-4961-9693-7dae286f78d0">
+              <HierarchyID>Hierarchy</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+        <Dimension dwd:design-time-name="9c020128-1326-4866-85ec-21f3c1cdd5f3">
+          <CubeDimensionID>City</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="7944a207-2157-441b-99c9-bf13edf69dce">
+              <AttributeID>City Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="23b0acae-d919-4693-b1bc-b3440e8958b5">
+              <AttributeID>State Province</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="7a5e4aaf-eb10-46df-93f4-5e4b2d79e2ca">
+              <AttributeID>Country</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="03439320-a8e8-4eb3-b1a1-abf460dac082">
+              <AttributeID>Continent</AttributeID>
+            </Attribute>
+          </Attributes>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="99fa37db-a4b0-4e14-9c67-5ca30587b873">
+              <HierarchyID>Hierarchy</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+        <Dimension dwd:design-time-name="5ac59adb-786f-42d1-8b60-4a76409d8705">
+          <CubeDimensionID>Bill To Customer</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="5f56daf0-979c-4775-b9e3-aa18ee75a45d">
+              <AttributeID>Customer Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="e763559b-596d-40a7-a707-1ce43d4031e3">
+              <AttributeID>Category</AttributeID>
+            </Attribute>
+          </Attributes>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="a7a15865-b17c-490e-935d-1dc46fd3549e">
+              <HierarchyID>Hierarchy</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+        <Dimension dwd:design-time-name="24cf3433-ebf3-45a8-b625-72ee51223cbd">
+          <CubeDimensionID>Employee</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="7df7768f-e4ee-4df0-8b3a-b60b8882d5f4">
+              <AttributeID>Employee Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="eb8960f5-f2f9-4f00-9288-db4add614a96">
+              <AttributeID>Is Salesperson</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="e559d1bd-5b9b-49e6-a778-a3907b1effdd">
+              <AttributeID>Valid From</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="dca0fc16-82f9-4f30-842e-191801378109">
+              <AttributeID>Valid To</AttributeID>
+            </Attribute>
+          </Attributes>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="7781ee1a-bad1-4dea-bdd1-119d0e25518f">
+              <HierarchyID>Hierarchy</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+        <Dimension dwd:design-time-name="750e2a9c-e76c-4e7a-bcb4-75dfaf4a3887">
+          <CubeDimensionID>Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="626a7200-eaf7-4138-b6c9-3f072ca63c88">
+              <AttributeID>Date</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="88dcaaee-136e-4fbd-9746-09a2647ccacd">
+              <AttributeID>Fiscal Year Label</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="1e8e5781-9c56-473b-b97e-5b51d7830ff6">
+              <AttributeID>Fiscal Month Label</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="ac9cdc9e-2409-4148-b65a-6e3c3fdcaf38">
+              <AttributeID>Calendar Year Label</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="0b7157a9-d9f1-4bc3-bb3d-034466e51337">
+              <AttributeID>Calendar Month Label</AttributeID>
+            </Attribute>
+          </Attributes>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="af61ef1d-73f9-400f-814e-ff2c1a6ddef3">
+              <HierarchyID>Hierarchy</HierarchyID>
+            </Hierarchy>
+            <Hierarchy dwd:design-time-name="3c29d0bd-095d-40fa-8442-1bd4cfa3ec02">
+              <HierarchyID>Hierarchy 1</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+        <Dimension dwd:design-time-name="43569b4a-7cb7-47a8-a81d-3b295e10c341">
+          <CubeDimensionID>Stock Holding</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="5101b5e3-45dc-4c40-94e0-53a7b39e855e">
+              <AttributeID>Stock Holding Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="202a1d1f-5f1f-45d7-8799-2fe4322ef081">
+              <AttributeID>Quantity On Hand</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="4d5d4756-c0f8-4b81-89d6-909d7a1c130f">
+              <AttributeID>Stock Item Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="2a5dda5c-a99e-4ea2-878a-71cdb34cb650">
+              <AttributeID>Last Stocktake Quantity</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="06975769-6aac-4a23-b287-3769eda2bd3e">
+              <AttributeID>Last Cost Price</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="5cce50c1-fd13-4e5f-963b-9a49aeaad02c">
+              <AttributeID>Target Stock Level</AttributeID>
+            </Attribute>
+          </Attributes>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="1f1420b9-5e95-49d5-bf91-b858e1f91892">
+              <HierarchyID>Hierarchy</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+      </Dimensions>
+      <MeasureGroups>
+        <MeasureGroup dwd:design-time-name="373fed33-8f0a-4bc7-adba-2c2ef5562414">
+          <MeasureGroupID>Sale</MeasureGroupID>
+          <Measures>
+            <Measure dwd:design-time-name="059e7673-9a1b-4a57-9b13-95760b6591b3">
+              <MeasureID>Quantity - Sale</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="5710d092-f10d-4852-8bc5-c823f9794004">
+              <MeasureID>Unit Price - Sale</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="05716839-19b5-4bcd-bc97-31225b887578">
+              <MeasureID>Tax Rate - Sale</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="a8e2d350-6c92-4b1d-9877-b0a33b9c12bc">
+              <MeasureID>Total Excluding Tax - Sale</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="3508f175-4786-4af2-8882-932c4d706352">
+              <MeasureID>Tax Amount - Sale</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="9d7408c0-efda-46c7-aff3-caa8d3f0f6f1">
+              <MeasureID>Profit</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="65b258cd-afc2-434e-a123-7c66ca71c3a7">
+              <MeasureID>Total Including Tax - Sale</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="a7f23263-d5e5-4613-9c3c-24857db6845d">
+              <MeasureID>Total Dry Items</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="3a5f1f99-1dfb-451e-b25c-c6dec00ac2b6">
+              <MeasureID>Total Chiller Items</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="3f520049-24fa-40b3-9eb4-cb8590a01882">
+              <MeasureID>Lineage Key - Sale</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="cbbf2eef-972f-4381-8eed-7587c8df927d">
+              <MeasureID>Sale Count</MeasureID>
+            </Measure>
+          </Measures>
+        </MeasureGroup>
+        <MeasureGroup dwd:design-time-name="5018f5c3-3696-4519-8a6a-8377c2140417">
+          <MeasureGroupID>Sale 1</MeasureGroupID>
+          <Measures>
+            <Measure dwd:design-time-name="8b42d5f0-f3b2-4628-af12-0f3c5368a623">
+              <MeasureID>Profit Distinct Count</MeasureID>
+            </Measure>
+          </Measures>
+        </MeasureGroup>
+        <MeasureGroup dwd:design-time-name="958dc2d4-2144-4312-b1a2-cade494fdce2">
+          <MeasureGroupID>Sale 2</MeasureGroupID>
+          <Measures>
+            <Measure dwd:design-time-name="432e1491-f33c-4499-be7a-4d3d090177a5">
+              <MeasureID>Sale Key Distinct Count</MeasureID>
+            </Measure>
+          </Measures>
+        </MeasureGroup>
+      </MeasureGroups>
+    </Perspective>
+    <Perspective dwd:design-time-name="ac88b431-54ee-4a69-bb96-2b197b79161f">
+      <ID>Perspective 1</ID>
+      <Name>Transaction</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Dimensions>
+        <Dimension dwd:design-time-name="67f31f0b-51fd-40d4-a53b-3b177bdc9fca">
+          <CubeDimensionID>Sale</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="484609f5-5044-49b5-89a4-78c10d724a68">
+              <AttributeID>Sale Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="40b8b596-a837-4d7d-ab23-6462c43f106c">
+              <AttributeID>City Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="c81234f4-536e-4018-85fa-33e2153e77bb">
+              <AttributeID>Country</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="6187cd91-0479-41c4-97f8-49eb1f38bfc0">
+              <AttributeID>Continent</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="f60a2c58-cd8f-40d3-b3a0-11543d918cf9">
+              <AttributeID>Stock Item Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="42a3fbf8-af77-47fc-bc04-b89befc41238">
+              <AttributeID>Color</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="d8a11c51-b223-49d0-b01e-f0deb3c9fff1">
+              <AttributeID>State Province</AttributeID>
+            </Attribute>
+          </Attributes>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="1017a08b-27af-445e-8d0e-aff80f7e9dc9">
+              <HierarchyID>Hierarchy</HierarchyID>
+            </Hierarchy>
+            <Hierarchy dwd:design-time-name="dcb3c886-92d7-4892-aa12-47d5054b1a7a">
+              <HierarchyID>Hierarchy 1</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+        <Dimension dwd:design-time-name="e88bb792-e8d5-4c79-bc10-15a51f664cdd">
+          <CubeDimensionID>Delivery Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="9d5920b6-2bd5-42fe-a1cb-cbe7bb3c821a">
+              <AttributeID>Date</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="f90ef81d-be08-4f34-a0b0-2ece1c393e00">
+              <AttributeID>Fiscal Year Label</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="08ea9118-16aa-4186-9ddd-d696210a1570">
+              <AttributeID>Fiscal Month Label</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="b27754ca-52e3-4aaf-8f6c-b54ce0e0f333">
+              <AttributeID>Calendar Year Label</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="bf78cc44-008b-474f-a821-a75fda61eca3">
+              <AttributeID>Calendar Month Label</AttributeID>
+            </Attribute>
+          </Attributes>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="74411ff2-ef36-4441-8fb0-9b75da06134c">
+              <HierarchyID>Hierarchy</HierarchyID>
+            </Hierarchy>
+            <Hierarchy dwd:design-time-name="eb59a5c4-d54e-4a60-9f57-92b2a2655819">
+              <HierarchyID>Hierarchy 1</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+        <Dimension dwd:design-time-name="2047d2c1-83c3-4a9f-80df-e19b4854e987">
+          <CubeDimensionID>Stock Item</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="0774d650-25a0-4a5a-8a84-041681f82ebd">
+              <AttributeID>Stock Item Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="a1744b21-c8ae-47ab-b5c9-e043aca0c9bd">
+              <AttributeID>Brand</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="92955a44-9655-4b42-9212-f8f623a5d10d">
+              <AttributeID>Color</AttributeID>
+            </Attribute>
+          </Attributes>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="09ddc626-4caf-413d-aaae-cab5fdbb03d7">
+              <HierarchyID>Hierarchy</HierarchyID>
+            </Hierarchy>
+            <Hierarchy dwd:design-time-name="4d0aa275-0e00-4382-be8e-a68cd943c25b">
+              <HierarchyID>Hierarchy 1</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+        <Dimension dwd:design-time-name="727a7cda-51e0-4946-bcf0-ebeb58512c39">
+          <CubeDimensionID>Invoice Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="421d1396-7c9f-4dd3-abd0-a6234e0b54c6">
+              <AttributeID>Date</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="50d5448a-0654-45f5-b480-492d33a35a13">
+              <AttributeID>Fiscal Year Label</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="548c9d48-d939-463e-8886-69209b0f4279">
+              <AttributeID>Fiscal Month Label</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="3a986bb2-74c2-49bb-9426-5c1338a4e6e8">
+              <AttributeID>Calendar Year Label</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="c22126a1-50b0-4aec-8ea4-0c14ca4c2811">
+              <AttributeID>Calendar Month Label</AttributeID>
+            </Attribute>
+          </Attributes>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="c9dab461-44fc-4494-9be5-83ef28f91376">
+              <HierarchyID>Hierarchy</HierarchyID>
+            </Hierarchy>
+            <Hierarchy dwd:design-time-name="e005eacb-21df-4b00-86b3-d93f7ec77dc4">
+              <HierarchyID>Hierarchy 1</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+        <Dimension dwd:design-time-name="0d80b57d-367c-4c87-8b4f-fd54f4c34710">
+          <CubeDimensionID>Customer</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="35bed376-846c-47b5-a53a-b6742378e6bc">
+              <AttributeID>Customer Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="004fdebc-0c80-4403-b155-96fe1b60709d">
+              <AttributeID>Category</AttributeID>
+            </Attribute>
+          </Attributes>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="ac6fa280-5d89-412d-8260-dd07b4457ceb">
+              <HierarchyID>Hierarchy</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+        <Dimension dwd:design-time-name="2432af1d-864d-4aa7-ad92-7e451885a33d">
+          <CubeDimensionID>City</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="c622c631-86b0-4432-9a0d-8123dd93ca69">
+              <AttributeID>City Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="99b815ce-2c93-48a4-abbc-7f31b6be7e4a">
+              <AttributeID>State Province</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="31b2ba6f-2130-4ebe-8cd9-b0f87c2cc0f8">
+              <AttributeID>Country</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="11187d03-5c8e-4e96-ac65-d84e533b74d4">
+              <AttributeID>Continent</AttributeID>
+            </Attribute>
+          </Attributes>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="5d7d5672-ec4f-47c9-bcbe-83d203fc82f4">
+              <HierarchyID>Hierarchy</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+        <Dimension dwd:design-time-name="010c00f2-c634-4024-9f21-37ef94188893">
+          <CubeDimensionID>Bill To Customer</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="0ee292bd-01ed-4e87-93b3-b27b42576e4d">
+              <AttributeID>Customer Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="7af4c6d0-ed7d-49a0-ae08-5135abc6e12f">
+              <AttributeID>Category</AttributeID>
+            </Attribute>
+          </Attributes>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="85dd726b-9cac-4f66-9e7f-ba3c405bd58a">
+              <HierarchyID>Hierarchy</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+        <Dimension dwd:design-time-name="6850225f-f20f-4037-add5-a4a675cff002">
+          <CubeDimensionID>Employee</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e4d74154-9fa3-43e0-ae50-2bdb5db08842">
+              <AttributeID>Employee Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="ba054211-e39b-41e9-8b3f-263aa8b72138">
+              <AttributeID>Is Salesperson</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="27b98508-241f-4e26-9b03-3ce7d4ebb5c0">
+              <AttributeID>Valid From</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="5aaf6177-bebd-4cd0-8ae7-ca4c732b325a">
+              <AttributeID>Valid To</AttributeID>
+            </Attribute>
+          </Attributes>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="8e715818-1eb6-4533-bdf7-b371c18ef90a">
+              <HierarchyID>Hierarchy</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+        <Dimension dwd:design-time-name="4b478ae7-eefd-45bf-86a0-e81882f92965">
+          <CubeDimensionID>Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="13cc9221-82af-46fe-a6e2-36dedcc310b7">
+              <AttributeID>Date</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="93f831c1-839d-433d-af2e-9936847dcf7c">
+              <AttributeID>Fiscal Year Label</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="adf9e8f3-f44e-4915-ae14-ee3e41bb56b3">
+              <AttributeID>Fiscal Month Label</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="ae116ea0-a8ab-4d32-873b-dc2cfd188c9b">
+              <AttributeID>Calendar Year Label</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="a1c30296-2674-4640-b845-7dc34407903b">
+              <AttributeID>Calendar Month Label</AttributeID>
+            </Attribute>
+          </Attributes>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="92668b9c-729c-4907-8d05-f4570792af07">
+              <HierarchyID>Hierarchy</HierarchyID>
+            </Hierarchy>
+            <Hierarchy dwd:design-time-name="160f50ef-f781-4e6a-8cc9-fa6d28a8f627">
+              <HierarchyID>Hierarchy 1</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+        <Dimension dwd:design-time-name="47e7b8d4-1b81-4d5f-b282-7b808177a955">
+          <CubeDimensionID>Stock Holding</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="de1f6c88-4f82-455b-84ae-24c51b0e7cea">
+              <AttributeID>Stock Holding Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="a072b4f0-8a1b-489f-8951-2218229ad8dc">
+              <AttributeID>Quantity On Hand</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="f30e7f72-3aca-4b39-b618-bf91dbc5af21">
+              <AttributeID>Stock Item Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="84fb02a6-98c7-46d3-8008-701b7185ba80">
+              <AttributeID>Last Stocktake Quantity</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="1bd5ffbe-17bc-48fb-ba63-69774d90fb72">
+              <AttributeID>Last Cost Price</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="0b8f1854-51e8-4f85-b76d-7be56561c27c">
+              <AttributeID>Target Stock Level</AttributeID>
+            </Attribute>
+          </Attributes>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="e54b7920-625e-496d-869b-fb70a3c1867d">
+              <HierarchyID>Hierarchy</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+      </Dimensions>
+      <MeasureGroups>
+        <MeasureGroup dwd:design-time-name="3b042f46-9154-45ac-bf14-d6b803333b20">
+          <MeasureGroupID>Transaction 1</MeasureGroupID>
+          <Measures>
+            <Measure dwd:design-time-name="7dba4188-9e85-4888-a2c3-139a98c139e8">
+              <MeasureID>Payment Method Key Distinct Count</MeasureID>
+            </Measure>
+          </Measures>
+        </MeasureGroup>
+        <MeasureGroup dwd:design-time-name="59f6e4d9-8fa5-4be3-8fb6-83ef6860f97d">
+          <MeasureGroupID>Transaction</MeasureGroupID>
+          <Measures>
+            <Measure dwd:design-time-name="d872f955-25b4-461e-980e-92e2b1df58a4">
+              <MeasureID>Transaction Count</MeasureID>
+            </Measure>
+          </Measures>
+        </MeasureGroup>
+      </MeasureGroups>
+    </Perspective>
+  </Perspectives>
   <MeasureGroups>
     <MeasureGroup dwd:design-time-name="bbc9a596-26f8-4373-b45b-31c48f9da880">
       <ID>Sale</ID>

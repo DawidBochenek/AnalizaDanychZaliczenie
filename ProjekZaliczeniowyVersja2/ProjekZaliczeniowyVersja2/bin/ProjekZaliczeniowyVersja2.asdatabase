@@ -4094,6 +4094,586 @@
           </Hierarchies>
         </Dimension>
       </Dimensions>
+      <Perspectives>
+        <Perspective>
+          <ID>Perspective</ID>
+          <Name>Sale</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <Dimensions>
+            <Dimension>
+              <CubeDimensionID>Sale</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Sale Key</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>City Key</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Country</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Continent</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Stock Item Key</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Color</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>State Province</AttributeID>
+                </Attribute>
+              </Attributes>
+              <Hierarchies>
+                <Hierarchy>
+                  <HierarchyID>Hierarchy</HierarchyID>
+                </Hierarchy>
+                <Hierarchy>
+                  <HierarchyID>Hierarchy 1</HierarchyID>
+                </Hierarchy>
+              </Hierarchies>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Delivery Date</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Date</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Fiscal Year Label</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Fiscal Month Label</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Calendar Year Label</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Calendar Month Label</AttributeID>
+                </Attribute>
+              </Attributes>
+              <Hierarchies>
+                <Hierarchy>
+                  <HierarchyID>Hierarchy</HierarchyID>
+                </Hierarchy>
+                <Hierarchy>
+                  <HierarchyID>Hierarchy 1</HierarchyID>
+                </Hierarchy>
+              </Hierarchies>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Stock Item</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Stock Item Key</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Brand</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Color</AttributeID>
+                </Attribute>
+              </Attributes>
+              <Hierarchies>
+                <Hierarchy>
+                  <HierarchyID>Hierarchy</HierarchyID>
+                </Hierarchy>
+                <Hierarchy>
+                  <HierarchyID>Hierarchy 1</HierarchyID>
+                </Hierarchy>
+              </Hierarchies>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Invoice Date</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Date</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Fiscal Year Label</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Fiscal Month Label</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Calendar Year Label</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Calendar Month Label</AttributeID>
+                </Attribute>
+              </Attributes>
+              <Hierarchies>
+                <Hierarchy>
+                  <HierarchyID>Hierarchy</HierarchyID>
+                </Hierarchy>
+                <Hierarchy>
+                  <HierarchyID>Hierarchy 1</HierarchyID>
+                </Hierarchy>
+              </Hierarchies>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Customer</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Customer Key</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Category</AttributeID>
+                </Attribute>
+              </Attributes>
+              <Hierarchies>
+                <Hierarchy>
+                  <HierarchyID>Hierarchy</HierarchyID>
+                </Hierarchy>
+              </Hierarchies>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>City</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>City Key</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>State Province</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Country</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Continent</AttributeID>
+                </Attribute>
+              </Attributes>
+              <Hierarchies>
+                <Hierarchy>
+                  <HierarchyID>Hierarchy</HierarchyID>
+                </Hierarchy>
+              </Hierarchies>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Bill To Customer</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Customer Key</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Category</AttributeID>
+                </Attribute>
+              </Attributes>
+              <Hierarchies>
+                <Hierarchy>
+                  <HierarchyID>Hierarchy</HierarchyID>
+                </Hierarchy>
+              </Hierarchies>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Employee</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Employee Key</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Is Salesperson</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Valid From</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Valid To</AttributeID>
+                </Attribute>
+              </Attributes>
+              <Hierarchies>
+                <Hierarchy>
+                  <HierarchyID>Hierarchy</HierarchyID>
+                </Hierarchy>
+              </Hierarchies>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Date</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Date</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Fiscal Year Label</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Fiscal Month Label</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Calendar Year Label</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Calendar Month Label</AttributeID>
+                </Attribute>
+              </Attributes>
+              <Hierarchies>
+                <Hierarchy>
+                  <HierarchyID>Hierarchy</HierarchyID>
+                </Hierarchy>
+                <Hierarchy>
+                  <HierarchyID>Hierarchy 1</HierarchyID>
+                </Hierarchy>
+              </Hierarchies>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Stock Holding</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Stock Holding Key</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Quantity On Hand</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Stock Item Key</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Last Stocktake Quantity</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Last Cost Price</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Target Stock Level</AttributeID>
+                </Attribute>
+              </Attributes>
+              <Hierarchies>
+                <Hierarchy>
+                  <HierarchyID>Hierarchy</HierarchyID>
+                </Hierarchy>
+              </Hierarchies>
+            </Dimension>
+          </Dimensions>
+          <MeasureGroups>
+            <MeasureGroup>
+              <MeasureGroupID>Sale</MeasureGroupID>
+              <Measures>
+                <Measure>
+                  <MeasureID>Quantity - Sale</MeasureID>
+                </Measure>
+                <Measure>
+                  <MeasureID>Unit Price - Sale</MeasureID>
+                </Measure>
+                <Measure>
+                  <MeasureID>Tax Rate - Sale</MeasureID>
+                </Measure>
+                <Measure>
+                  <MeasureID>Total Excluding Tax - Sale</MeasureID>
+                </Measure>
+                <Measure>
+                  <MeasureID>Tax Amount - Sale</MeasureID>
+                </Measure>
+                <Measure>
+                  <MeasureID>Profit</MeasureID>
+                </Measure>
+                <Measure>
+                  <MeasureID>Total Including Tax - Sale</MeasureID>
+                </Measure>
+                <Measure>
+                  <MeasureID>Total Dry Items</MeasureID>
+                </Measure>
+                <Measure>
+                  <MeasureID>Total Chiller Items</MeasureID>
+                </Measure>
+                <Measure>
+                  <MeasureID>Lineage Key - Sale</MeasureID>
+                </Measure>
+                <Measure>
+                  <MeasureID>Sale Count</MeasureID>
+                </Measure>
+              </Measures>
+            </MeasureGroup>
+            <MeasureGroup>
+              <MeasureGroupID>Sale 1</MeasureGroupID>
+              <Measures>
+                <Measure>
+                  <MeasureID>Profit Distinct Count</MeasureID>
+                </Measure>
+              </Measures>
+            </MeasureGroup>
+            <MeasureGroup>
+              <MeasureGroupID>Sale 2</MeasureGroupID>
+              <Measures>
+                <Measure>
+                  <MeasureID>Sale Key Distinct Count</MeasureID>
+                </Measure>
+              </Measures>
+            </MeasureGroup>
+          </MeasureGroups>
+        </Perspective>
+        <Perspective>
+          <ID>Perspective 1</ID>
+          <Name>Transaction</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <Dimensions>
+            <Dimension>
+              <CubeDimensionID>Sale</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Sale Key</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>City Key</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Country</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Continent</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Stock Item Key</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Color</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>State Province</AttributeID>
+                </Attribute>
+              </Attributes>
+              <Hierarchies>
+                <Hierarchy>
+                  <HierarchyID>Hierarchy</HierarchyID>
+                </Hierarchy>
+                <Hierarchy>
+                  <HierarchyID>Hierarchy 1</HierarchyID>
+                </Hierarchy>
+              </Hierarchies>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Delivery Date</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Date</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Fiscal Year Label</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Fiscal Month Label</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Calendar Year Label</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Calendar Month Label</AttributeID>
+                </Attribute>
+              </Attributes>
+              <Hierarchies>
+                <Hierarchy>
+                  <HierarchyID>Hierarchy</HierarchyID>
+                </Hierarchy>
+                <Hierarchy>
+                  <HierarchyID>Hierarchy 1</HierarchyID>
+                </Hierarchy>
+              </Hierarchies>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Stock Item</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Stock Item Key</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Brand</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Color</AttributeID>
+                </Attribute>
+              </Attributes>
+              <Hierarchies>
+                <Hierarchy>
+                  <HierarchyID>Hierarchy</HierarchyID>
+                </Hierarchy>
+                <Hierarchy>
+                  <HierarchyID>Hierarchy 1</HierarchyID>
+                </Hierarchy>
+              </Hierarchies>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Invoice Date</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Date</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Fiscal Year Label</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Fiscal Month Label</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Calendar Year Label</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Calendar Month Label</AttributeID>
+                </Attribute>
+              </Attributes>
+              <Hierarchies>
+                <Hierarchy>
+                  <HierarchyID>Hierarchy</HierarchyID>
+                </Hierarchy>
+                <Hierarchy>
+                  <HierarchyID>Hierarchy 1</HierarchyID>
+                </Hierarchy>
+              </Hierarchies>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Customer</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Customer Key</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Category</AttributeID>
+                </Attribute>
+              </Attributes>
+              <Hierarchies>
+                <Hierarchy>
+                  <HierarchyID>Hierarchy</HierarchyID>
+                </Hierarchy>
+              </Hierarchies>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>City</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>City Key</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>State Province</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Country</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Continent</AttributeID>
+                </Attribute>
+              </Attributes>
+              <Hierarchies>
+                <Hierarchy>
+                  <HierarchyID>Hierarchy</HierarchyID>
+                </Hierarchy>
+              </Hierarchies>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Bill To Customer</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Customer Key</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Category</AttributeID>
+                </Attribute>
+              </Attributes>
+              <Hierarchies>
+                <Hierarchy>
+                  <HierarchyID>Hierarchy</HierarchyID>
+                </Hierarchy>
+              </Hierarchies>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Employee</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Employee Key</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Is Salesperson</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Valid From</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Valid To</AttributeID>
+                </Attribute>
+              </Attributes>
+              <Hierarchies>
+                <Hierarchy>
+                  <HierarchyID>Hierarchy</HierarchyID>
+                </Hierarchy>
+              </Hierarchies>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Date</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Date</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Fiscal Year Label</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Fiscal Month Label</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Calendar Year Label</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Calendar Month Label</AttributeID>
+                </Attribute>
+              </Attributes>
+              <Hierarchies>
+                <Hierarchy>
+                  <HierarchyID>Hierarchy</HierarchyID>
+                </Hierarchy>
+                <Hierarchy>
+                  <HierarchyID>Hierarchy 1</HierarchyID>
+                </Hierarchy>
+              </Hierarchies>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Stock Holding</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Stock Holding Key</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Quantity On Hand</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Stock Item Key</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Last Stocktake Quantity</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Last Cost Price</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Target Stock Level</AttributeID>
+                </Attribute>
+              </Attributes>
+              <Hierarchies>
+                <Hierarchy>
+                  <HierarchyID>Hierarchy</HierarchyID>
+                </Hierarchy>
+              </Hierarchies>
+            </Dimension>
+          </Dimensions>
+          <MeasureGroups>
+            <MeasureGroup>
+              <MeasureGroupID>Transaction 1</MeasureGroupID>
+              <Measures>
+                <Measure>
+                  <MeasureID>Payment Method Key Distinct Count</MeasureID>
+                </Measure>
+              </Measures>
+            </MeasureGroup>
+            <MeasureGroup>
+              <MeasureGroupID>Transaction</MeasureGroupID>
+              <Measures>
+                <Measure>
+                  <MeasureID>Transaction Count</MeasureID>
+                </Measure>
+              </Measures>
+            </MeasureGroup>
+          </MeasureGroups>
+        </Perspective>
+      </Perspectives>
       <MeasureGroups>
         <MeasureGroup>
           <ID>Sale</ID>

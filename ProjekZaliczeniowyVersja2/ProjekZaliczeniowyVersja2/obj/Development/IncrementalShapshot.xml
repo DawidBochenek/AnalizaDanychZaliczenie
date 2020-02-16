@@ -103,7 +103,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>v+BqGUMVpfFCCtt4tJf6kv2mqfo=16.02.2020 09:39:4016.02.2020 08:24:12LgcqL2jzJvr5fUy3CaOIlKW0S0w=16.02.2020 09:39:4016.02.2020 08:24:12</TimeStamp>
+        <TimeStamp>0G6VcZ9W2VHtG8XAnziw8jsnGYI=16.02.2020 09:45:5916.02.2020 08:24:12LgcqL2jzJvr5fUy3CaOIlKW0S0w=16.02.2020 09:39:4016.02.2020 08:24:12</TimeStamp>
         <ID>
           <String>Wide World Importers DW</String>
         </ID>
@@ -120,5 +120,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2020-02-16T08:39:43.646667Z</LastDeployed>
+  <LastDeployed>2020-02-16T08:46:06.86Z</LastDeployed>
 </DeploymentSnapshot>
