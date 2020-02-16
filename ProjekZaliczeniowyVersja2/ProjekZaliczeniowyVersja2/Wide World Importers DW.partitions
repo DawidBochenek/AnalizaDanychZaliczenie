@@ -1,0 +1,145 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="b8f9a0ef-fa5a-419c-a7e5-5b8726e72fae" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Wide World Importers DW</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Sale</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="d1d6e345-17b5-4635-a1b2-65431a6b3a3f">
+          <ID>Sale</ID>
+          <Name>Sale</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="14d8a68a-36cf-48e9-ad98-210bf89de25a">
+            <DataSourceViewID>Wide World Importers DW</DataSourceViewID>
+            <TableID>Fact_Sale</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Stock Item</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="46d09eaa-6281-4e6d-a5a0-de64e0995f38">
+          <ID>Stock Item</ID>
+          <Name>Stock Item</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="550ecbcb-ce8c-40f0-818c-42a832ba7572">
+            <DataSourceViewID>Wide World Importers DW</DataSourceViewID>
+            <TableID>Dimension_Stock_x0020_Item</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Transaction</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="d6e00756-4903-45d1-b14b-fed67559922a">
+          <ID>Transaction</ID>
+          <Name>Transaction</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="6140be8e-9429-40a3-bf28-9b49570307e8">
+            <DataSourceViewID>Wide World Importers DW</DataSourceViewID>
+            <TableID>Fact_Transaction</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Transaction 1</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="9472a809-8b50-4ee7-8fc4-340745b1f746">
+          <ID>Transaction</ID>
+          <Name>Transaction</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="8f485e40-0a1e-4c55-905d-abe8fda32a8a">
+            <DataSourceViewID>Wide World Importers DW</DataSourceViewID>
+            <TableID>Fact_Transaction</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Stock Holding 1</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="2393a7a1-1f77-4a1e-a812-2bb17d97d682">
+          <ID>Stock Holding</ID>
+          <Name>Stock Holding</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="bbef7926-939f-4569-8e15-f23333cd9705">
+            <DataSourceViewID>Wide World Importers DW</DataSourceViewID>
+            <TableID>Fact_Stock_x0020_Holding</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Stock Holding</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="68537148-d454-4304-abac-3e1325937fd6">
+          <ID>Stock Holding</ID>
+          <Name>Stock Holding</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="d8a0a75a-46f4-4cb5-965e-c2552a40a166">
+            <DataSourceViewID>Wide World Importers DW</DataSourceViewID>
+            <TableID>Fact_Stock_x0020_Holding</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Sale 1</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="f92bc3fb-c892-45cd-a2c5-a226ab8ac904">
+          <ID>Sale</ID>
+          <Name>Sale</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="e92d18d8-788b-4b77-b037-6cf13a964361">
+            <DataSourceViewID>Wide World Importers DW</DataSourceViewID>
+            <TableID>Fact_Sale</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

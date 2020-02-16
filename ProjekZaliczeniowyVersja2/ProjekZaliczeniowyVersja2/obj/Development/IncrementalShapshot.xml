@@ -1,0 +1,124 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>ProjekZaliczeniowyVersja2</Database>
+    <Server>(local)</Server>
+    <ConnectionString>Data Source=(local);Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>sVZN4zvlKnp881xAsQicdjsJFGo=15.02.2020 19:55:3116.02.2020 08:24:12</TimeStamp>
+        <ID>
+          <String>Wide World Importers DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>rz1wf/OYt79Ahom0c/LKH2tlO9U=15.02.2020 11:39:4016.02.2020 08:24:12</TimeStamp>
+        <ID>
+          <String>Wide World Importers DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>K7VFOW9iXd2M3wd0YTCsshwVHvs=15.02.2020 11:39:4016.02.2020 08:24:12</TimeStamp>
+        <ID>
+          <String>Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>v+G1dtB+2pF13h6BHFYUiA84vNo=15.02.2020 20:25:2316.02.2020 08:24:12</TimeStamp>
+        <ID>
+          <String>Stock Item</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Dr79OBMYLq510f+FNOfeyHavhEU=15.02.2020 20:36:2416.02.2020 08:24:12</TimeStamp>
+        <ID>
+          <String>Employee</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>hf23ihz6Q8yN03JeuTfPmWiTwAU=15.02.2020 11:39:4016.02.2020 08:24:12</TimeStamp>
+        <ID>
+          <String>Customer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>S0mZZEgEDQLs8bCRTa1ycp8VKAk=15.02.2020 11:39:4016.02.2020 08:24:12</TimeStamp>
+        <ID>
+          <String>City</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>BXYlR0Gvi7kcvCv5BhFvSc5B1l0=15.02.2020 20:37:2016.02.2020 08:24:12</TimeStamp>
+        <ID>
+          <String>Sale</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>11U9cUaYFM2bhi47XNO/EbVNmD4=15.02.2020 20:40:2816.02.2020 08:24:12</TimeStamp>
+        <ID>
+          <String>Movement</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>VadUdhqxLVLlmePsxbov1I1OkdQ=15.02.2020 11:39:4016.02.2020 08:24:12</TimeStamp>
+        <ID>
+          <String>Transaction</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>jbHiiiR+kITGldIin+5+Jx4bB+c=15.02.2020 20:34:3016.02.2020 08:24:12</TimeStamp>
+        <ID>
+          <String>Stock Holding</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>QKWN5wmPO8QhAr2tcrLMkC19Qhg=15.02.2020 20:48:2816.02.2020 08:24:12</TimeStamp>
+        <ID>
+          <String>Purchase</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>UQyMEIvnyA5pBRD+zddQQI/tz60=16.02.2020 08:34:4016.02.2020 08:24:12Cc/MpSgxvJDWuZBPyu7yq0wcYBM=16.02.2020 08:34:4016.02.2020 08:24:12</TimeStamp>
+        <ID>
+          <String>Wide World Importers DW</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>dAcZR+bUjCNrK+GI3lOVZLhlSAw=15.02.2020 11:39:4016.02.2020 08:24:12</TimeStamp>
+      <ID>
+        <String>ProjekZaliczeniowyVersja2</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2020-02-16T07:34:44.233333Z</LastDeployed>
+</DeploymentSnapshot>
